@@ -9,6 +9,13 @@ Team Members: Jade Sauvé
 
 Main body of the project
 
+
+TO DO
+
+add the module that will create a folder for the data/figures
+add some input from user
+make all paths relative
+
 """
 
 # Modules
@@ -29,13 +36,12 @@ from modules import *
 ######################## Parameters ########################
 
 directory_in = ''  
-file_geo = '/Users/jadesauve/Desktop/PTAGIS_GIS_Data.gdb'
 
 save = True  # True or False, to save
 directory_out = ''
 file_out = ''  
 #directory to save the data files
-out_dir = '../../data/effective_computing/'
+out_dir = '../python_run_data/' # for now modify this line to work on your computer
 ##############################################################
 
 
@@ -82,7 +88,7 @@ for i in year:
 			#df = pd.read_csv(out_dir+filename,delim_whitespace=True, skiprows=4, skipfooter = 3, engine = 'python')#last argument might not be required
 
 	
-
+#
 
 
 
