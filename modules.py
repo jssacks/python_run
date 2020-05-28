@@ -37,7 +37,7 @@ def make_dir(dirname, clean=False):
             pass # assume OSError was raised because directory already exists
 
 
-def retrieve_data(year, day_of_year, extension,out_dir):
+def retrieve_data(year, day_of_year, extension, out_dir):
     """
     downloads the ASCII files from the website for a specific year and day
     """
@@ -57,9 +57,10 @@ def retrieve_data(year, day_of_year, extension,out_dir):
 
         print(' Retrieved ' + filename)
 
+    # this is bad form, specify an error type
     except:
         print(' -- Failed to retrieve' + filename)
-        pass
+        #pass
 
 
 def pyrun_parse(filename):

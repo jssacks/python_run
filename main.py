@@ -12,9 +12,12 @@ Main body of the project
 
 TO DO
 
-add the module that will create a folder for the data/figures
+add the module that will create a folder for the data/figures  x
 add some input from user
 make all paths relative
+add the folder/station as an option in the function
+prep the data for the first year for comparison with chosen year
+get one year of data, dateitme object 
 
 """
 
@@ -27,7 +30,7 @@ import matplotlib.pyplot as plt
 
 import os
 import sys
-pht = os.path.abspath('/../python_run')
+pht = os.path.abspath('.')
 if pht not in sys.path:
     sys.path.append(pht)
 from modules import *
@@ -35,12 +38,12 @@ from modules import *
 
 ######################## Parameters ########################
 
-year = range(2005,2013)
+#year = range(2005,2013)
 extension = ['.A1','.B1','.C1','.D1','.E1','.F1','.G1','.H1']
-day_of_year = range(365)
+#day_of_year = range(365)
 year = [2009]
 day_of_year = [202]
-
+# one or many ?????
 
 # Saving the plots
 #save = True  # True or False, to save
@@ -53,7 +56,7 @@ day_of_year = [202]
 
 ## make sure the output directory exists
 this_dir = os.path.abspath('.').split('/')[-1]
-this_parent = os.path.abspath('.').split('/')[-1]
+this_parent = os.path.abspath('.').split('/')[-2]
 out_dir = this_parent + '_output/'
 print('Creating ' + out_dir + ', if needed')
 make_dir(out_dir)
