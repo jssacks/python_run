@@ -17,7 +17,7 @@ add some input from user
 make all paths relative
 add the folder/station as an option in the function
 prep the data for the first year for comparison with chosen year
-get one year of data, dateitme object 
+get one year of data, dateitme object
 
 """
 
@@ -26,7 +26,7 @@ import ftplib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-#import datetime
+import datetime
 
 import os
 import sys
@@ -63,9 +63,9 @@ make_dir(out_dir)
 
 print(out_dir)
 
-#This section of code uses the 'retrieve_data' function to interact with the website 
+#This section of code uses the 'retrieve_data' function to interact with the website
 #and put the files into the output directory
-#clutch is a list of the filenames created to then read those ASCII files back in for further analysis 
+#clutch is a list of the filenames created to then read those ASCII files back in for further analysis
 clutch = []
 for i in year:
     for j in day_of_year:
@@ -77,13 +77,16 @@ for i in year:
 
 #This sections of code uses the 'pyrun_parse' function to convert the ASCII files
 #the code is run in a loop to process all of the ASCII files for the given day
-#run is the final DataFrame created, duplicates observations are removed. 
+#run is the final DataFrame created, duplicates observations are removed.
 run=pd.DataFrame(columns = {"date", "time", "ID"})
 for c in clutch:
     fish = pd.DataFrame(pyrun_parse(out_dir+c))
     run = pd.merge(run, fish, how='outer')
 run = run.drop_duplicates()
-# add pd.reset_index to resetn the index or make the date a datetime object and then the axis -  more funcionality then 
+# add pd.reset_index to resetn the index or make the date a datetime object and then the axis -  more funcionality then
+#print(run)
+
+run = run.drop_duplicates(subset=['ID']) # keep only the fist instance of a Tag ID
+run['datetime'] = pd.to_datetime(run['date']+run['time'], format='%m/%d/%y%H:%M:%S') # create a datetime object
+run = run.set_index('datetime').drop(['time', 'date'], axis=1) # make the new datetime object an index and drop the old 'date' and 'time' columns
 print(run)
-
-
