@@ -95,4 +95,4 @@ def pyrun_parse(filename):
     
     except:
         print("The salmon got eaten by a hungry grizzly bear") #it did not work
-
+        return None
