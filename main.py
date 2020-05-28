@@ -39,7 +39,7 @@ from modules import *
 ######################## Parameters ########################
 
 #year = range(2005,2013)
-extension = ['.A1','.B1','.C1','.D1','.E1','.F1','.G1','.H1']
+extension = ['.A1','.B1','.C1','.D1','.E1','.F1','.G1','.H1'] # 2005-2012
 #day_of_year = range(365)
 year = [2009]
 day_of_year = [202]
@@ -52,6 +52,21 @@ day_of_year = [202]
 #directory to save the data files
 #out_dir = ''
 ##############################################################
+
+# User input
+print('Please select a year between 2005 and 2012')
+year = input("Year: ")
+while year not in range(2005,2013):
+    print('WARNING Your selection is not aaceptable!')
+    print('Please select a year between 2005 and 2012')
+    year = input("Year: ")
+
+print('Please select a day between 1 and 365')
+day_of_year = input("Day of the year: ")
+while day_of_year not in range(1,366):
+    print('WARNING Your selection is not aaceptable!')
+    print('Please select a day between 1 and 365')
+    day_of_year = input("Day of the year: ")
 
 
 ## make sure the output directory exists
@@ -78,13 +93,14 @@ for i in year:
 #This sections of code uses the 'pyrun_parse' function to convert the ASCII files
 #the code is run in a loop to process all of the ASCII files for the given day
 #run is the final DataFrame created, duplicates observations are removed.
-run=pd.DataFrame(columns = {"date", "time", "ID"})
+df=pd.DataFrame(columns = {"date", "time", "ID"})
 for c in clutch:
     fish = pd.DataFrame(pyrun_parse(out_dir+c))
-    run = pd.merge(run, fish, how='outer')
-run = run.drop_duplicates()
+    df = pd.merge(df, fish, how='outer')
+df = df.drop_duplicates()
 # add pd.reset_index to resetn the index or make the date a datetime object and then the axis -  more funcionality then
-#print(run)
+print(df)
+
 
 run = run.drop_duplicates(subset=['ID']) # keep only the fist instance of a Tag ID
 run['datetime'] = pd.to_datetime(run['date']+run['time'], format='%m/%d/%y%H:%M:%S') # create a datetime object
