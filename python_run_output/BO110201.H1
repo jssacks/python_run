@@ -1,0 +1,1176 @@
+    FILE TYPE                      : INTERROGATION
+    FILE TITLE                     : BO110201.H1
+    FILE CREATED                   : 20 JULY 2010 AT 21:00
+    PROGRAM VERSION                : MINIMON V.1.5.0
+~02-5	07/20/10 21:02:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 21:02:25	ALARM	Average:      0 %
+~02-5	07/20/10 21:02:25	ALARM	Peak:         9 %
+~02-5	07/20/10 21:02:25	ALARM	FDXB Peak:    9 %
+~03-6	07/20/10 21:07:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 21:07:08	ALARM	Average:      0 %
+~03-6	07/20/10 21:07:08	ALARM	Peak:        12 %
+~03-6	07/20/10 21:07:09	ALARM	FDXB Peak:   12 %
+~02-5	07/20/10 21:12:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 21:12:24	ALARM	Average:      0 %
+~02-5	07/20/10 21:12:25	ALARM	Peak:        19 %
+~02-5	07/20/10 21:12:25	ALARM	FDXB Peak:   19 %
+~18-49	07/20/10 21:14:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 31 07/20/10 21:14:56 3E7.0000001D18 18 18 933
+~18-49	07/20/10 21:14:57	ALARM	MESSAGE: Test Tag Found.
+~07/20/10 21:15:10
+~04-7	07/20/10 21:15:29	ALARM	Noise report for Reader ID#04
+~04-7	07/20/10 21:15:29	ALARM	Average:      0 %
+~04-7	07/20/10 21:15:29	ALARM	Peak:        31 %
+~04-7	07/20/10 21:15:29	ALARM	FDXB Peak:   41 %
+~03-6	07/20/10 21:17:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 21:17:08	ALARM	Average:      0 %
+~03-6	07/20/10 21:17:08	ALARM	Peak:         5 %
+~03-6	07/20/10 21:17:09	ALARM	FDXB Peak:   14 %
+~13-30	07/20/10 21:20:40	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1E 07/20/10 21:20:40 3E7.0000001D13 13 13 523
+~13-30	07/20/10 21:20:40	ALARM	MESSAGE: Test Tag Found.
+~12-23	07/20/10 21:21:17	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 17 07/20/10 21:21:17 3E7.0000001D12 12 12 994
+~12-23	07/20/10 21:21:18	ALARM	MESSAGE: Test Tag Found.
+~11-22	07/20/10 21:21:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 16 07/20/10 21:21:55 3E7.0000001D11 11 11 213
+~11-22	07/20/10 21:21:55	ALARM	MESSAGE: Test Tag Found.
+~10-47	07/20/10 21:21:58	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2F 07/20/10 21:21:58 3E7.0000001D10 10 10 111
+~10-47	07/20/10 21:21:58	ALARM	MESSAGE: Test Tag Found.
+~0F-46	07/20/10 21:22:03	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2E 07/20/10 21:22:03 3E7.0000001D0F 0F 0F 718
+~0F-46	07/20/10 21:22:04	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 21:22:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 21:22:24	ALARM	Average:      0 %
+~02-5	07/20/10 21:22:25	ALARM	Peak:        32 %
+~02-5	07/20/10 21:22:25	ALARM	FDXB Peak:   32 %
+~14-31	07/20/10 21:25:29	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1F 07/20/10 21:25:29 3E7.0000001D14 14 14 561
+~14-31	07/20/10 21:25:30	ALARM	MESSAGE: Test Tag Found.
+~14-31	07/20/10 21:25:30	ALARM	Reader info:             Version:    FS1001A 5.0
+~14-31	07/20/10 21:25:30	ALARM	 Active:             On  Unique:             Off
+~14-31	07/20/10 21:25:30	ALARM	 Reader ID#:         14  Master:             Off
+~14-31	07/20/10 21:25:30	ALARM	Communication (N,8,1)
+~14-31	07/20/10 21:25:30	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~14-31	07/20/10 21:25:30	ALARM	Buffer:    Active    On  Tag Count:        10602
+~14-31	07/20/10 21:25:30	ALARM	Local:                   COM1 tag codes:     Off
+~14-31	07/20/10 21:25:30	ALARM	Diagnostics for 14:
+~14-31	07/20/10 21:25:30	ALARM	 Temperature:       38C  Exciter power:    15.4V
+~14-31	07/20/10 21:25:30	ALARM	 Exciter current:  4.6A  Signal level:        5%
+~14-31	07/20/10 21:25:31	ALARM	 Exciter phase:      4%  Sync input:          NO
+~14-31	07/20/10 21:25:31	ALARM	 Battery:            OK  Status:           Slave
+~14-31	07/20/10 21:25:31	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~14-31	07/20/10 21:25:31	ALARM	 Current gain:     112%  Current alarm:   4100mA
+~14-31	07/20/10 21:25:31	ALARM	Bit counters
+~14-31	07/20/10 21:25:31	ALARM	 Preambles:        5449  Bad CRC:            222
+~14-31	07/20/10 21:25:31	ALARM	 Good reads:       4262  Overruns:             0
+~14-31	07/20/10 21:25:31	ALARM	Alarms for 14:
+~14-31	07/20/10 21:25:31	ALARM	 Memory full            
+~0E-39	07/20/10 21:26:48	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 27 07/20/10 21:26:48 3E7.0000001D0E 0E 0E 451
+~0E-39	07/20/10 21:26:48	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 21:27:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 21:27:08	ALARM	Average:      0 %
+~03-6	07/20/10 21:27:08	ALARM	Peak:        12 %
+~03-6	07/20/10 21:27:09	ALARM	FDXB Peak:   22 %
+~07/20/10 21:30:10
+~22-27	07/20/10 21:31:31	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1B 07/20/10 21:31:31 3E7.0000001D22 22 22 827
+~22-27	07/20/10 21:31:32	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 21:32:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 21:32:24	ALARM	Average:      0 %
+~02-5	07/20/10 21:32:25	ALARM	Peak:        15 %
+~02-5	07/20/10 21:32:25	ALARM	FDXB Peak:   15 %
+~1E-43	07/20/10 21:32:34	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2B 07/20/10 21:32:34 3E7.0000001D1E 1E 1E 436
+~1E-43	07/20/10 21:32:34	ALARM	MESSAGE: Test Tag Found.
+~01-4	07/20/10 21:35:13	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 04 07/20/10 21:35:13 3E7.0000001D01 01 01 819
+~01-4	07/20/10 21:35:14	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 21:37:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 21:37:08	ALARM	Average:      0 %
+~03-6	07/20/10 21:37:08	ALARM	Peak:         7 %
+~03-6	07/20/10 21:37:08	ALARM	FDXB Peak:   17 %
+~20-51	07/20/10 21:40:29	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 33 07/20/10 21:40:29 3E7.0000001D20 20 20 801
+~20-51	07/20/10 21:40:30	ALARM	MESSAGE: Test Tag Found.
+~1F-50	07/20/10 21:41:07	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 32 07/20/10 21:41:07 3E7.0000001D1F 1F 1F 377
+~1F-50	07/20/10 21:41:07	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 21:42:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 21:42:24	ALARM	Average:      0 %
+~02-5	07/20/10 21:42:24	ALARM	Peak:         9 %
+~02-5	07/20/10 21:42:25	ALARM	FDXB Peak:   10 %
+~02-5	07/20/10 21:42:52	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 05 07/20/10 21:42:52 3E7.0000001D02 02 02 433
+~02-5	07/20/10 21:42:52	ALARM	MESSAGE: Test Tag Found.
+~07/20/10 21:45:10
+~04-7	07/20/10 21:45:28	ALARM	Reader info:             Version:    FS1001A 5.0
+~04-7	07/20/10 21:45:28	ALARM	 Active:             On  Unique:             Off
+~04-7	07/20/10 21:45:28	ALARM	 Reader ID#:         04  Master:             Off
+~04-7	07/20/10 21:45:29	ALARM	Communication (N,8,1)
+~04-7	07/20/10 21:45:29	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~04-7	07/20/10 21:45:29	ALARM	Buffer:    Active    On  Tag Count:        10630
+~04-7	07/20/10 21:45:29	ALARM	Local:                   COM1 tag codes:     Off
+~04-7	07/20/10 21:45:29	ALARM	Diagnostics for 04:
+~04-7	07/20/10 21:45:29	ALARM	 Temperature:       36C  Exciter power:    12.6V
+~04-7	07/20/10 21:45:29	ALARM	 Exciter current:  7.0A  Signal level:        0%
+~04-7	07/20/10 21:45:29	ALARM	 Exciter phase:     52%  Sync input:          NO
+~04-7	07/20/10 21:45:29	ALARM	 Battery:            OK  Status:           Slave
+~04-7	07/20/10 21:45:29	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~04-7	07/20/10 21:45:30	ALARM	 Current gain:     122%  Current alarm:   6000mA
+~04-7	07/20/10 21:45:30	ALARM	Bit counters
+~04-7	07/20/10 21:45:30	ALARM	 Preambles:       37156  Bad CRC:           2777
+~04-7	07/20/10 21:45:30	ALARM	 Good reads:       1163  Overruns:             0
+~04-7	07/20/10 21:45:30	ALARM	Alarms for 04:
+~04-7	07/20/10 21:45:30	ALARM	 Memory full            
+~04-7	07/20/10 21:45:31	ALARM	Noise report for Reader ID#04
+~04-7	07/20/10 21:45:31	ALARM	Average:      0 %
+~04-7	07/20/10 21:45:31	ALARM	Peak:        26 %
+~04-7	07/20/10 21:45:31	ALARM	FDXB Peak:   27 %
+~1A-25	07/20/10 21:46:25	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 19 07/20/10 21:46:25 3E7.0000001D1A 1A 1A 325
+~1A-25	07/20/10 21:46:25	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 21:46:31	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 06 07/20/10 21:46:31 3E7.0000001D03 03 03 303
+~03-6	07/20/10 21:46:31	ALARM	MESSAGE: Test Tag Found.
+~06-37	07/20/10 21:46:41	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 25 07/20/10 21:46:41 3E7.0000001D06 06 06 166
+~06-37	07/20/10 21:46:41	ALARM	MESSAGE: Test Tag Found.
+~05-36	07/20/10 21:46:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 24 07/20/10 21:46:56 3E7.0000001D05 05 05 433
+~05-36	07/20/10 21:46:56	ALARM	MESSAGE: Test Tag Found.
+~0D-38	07/20/10 21:47:00	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 26 07/20/10 21:47:00 3E7.0000001D0D 0D 0D 948
+~0D-38	07/20/10 21:47:01	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 21:47:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 21:47:08	ALARM	Average:      0 %
+~03-6	07/20/10 21:47:08	ALARM	Peak:        17 %
+~03-6	07/20/10 21:47:08	ALARM	FDXB Peak:   17 %
+~16-41	07/20/10 21:47:09	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 29 07/20/10 21:47:09 3E7.0000001D16 16 16 719
+~16-41	07/20/10 21:47:10	ALARM	MESSAGE: Test Tag Found.
+~0A-21	07/20/10 21:47:24	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 15 07/20/10 21:47:24 3E7.0000001D0A 0A 0A 202
+~0A-21	07/20/10 21:47:24	ALARM	MESSAGE: Test Tag Found.
+~08-45	07/20/10 21:47:37	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2D 07/20/10 21:47:37 3E7.0000001D08 08 08 082
+~08-45	07/20/10 21:47:37	ALARM	MESSAGE: Test Tag Found.
+~23-34	07/20/10 21:47:43	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 22 07/20/10 21:47:43 3E7.0000001D23 23 23 452
+~23-34	07/20/10 21:47:43	ALARM	MESSAGE: Test Tag Found.
+~21-26	07/20/10 21:47:46	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1A 07/20/10 21:47:46 3E7.0000001D21 21 21 147
+~21-26	07/20/10 21:47:46	ALARM	MESSAGE: Test Tag Found.
+~15-40	07/20/10 21:47:49	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 28 07/20/10 21:47:49 3E7.0000001D15 15 15 080
+~15-40	07/20/10 21:47:49	ALARM	MESSAGE: Test Tag Found.
+~1B-32	07/20/10 21:47:49	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 20 07/20/10 21:47:49 3E7.0000001D1B 1B 1B 927
+~1B-32	07/20/10 21:47:50	ALARM	MESSAGE: Test Tag Found.
+~17-48	07/20/10 21:47:53	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 30 07/20/10 21:47:53 3E7.0000001D17 17 17 266
+~17-48	07/20/10 21:47:53	ALARM	MESSAGE: Test Tag Found.
+~0B-28	07/20/10 21:47:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1C 07/20/10 21:47:55 3E7.0000001D0B 0B 0B 072
+~07-44	07/20/10 21:47:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2C 07/20/10 21:47:55 3E7.0000001D07 07 07 471
+~0B-28	07/20/10 21:47:55	ALARM	MESSAGE: Test Tag Found.
+~07-44	07/20/10 21:47:55	ALARM	MESSAGE: Test Tag Found.
+~07-44	07/20/10 21:47:55	ALARM	Reader info:             Version:    FS1001A 5.0
+~07-44	07/20/10 21:47:56	ALARM	 Active:             On  Unique:             Off
+~07-44	07/20/10 21:47:56	ALARM	 Reader ID#:         07  Master:             Off
+~07-44	07/20/10 21:47:56	ALARM	Communication (N,8,1)
+~07-44	07/20/10 21:47:56	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~07-44	07/20/10 21:47:56	ALARM	Buffer:    Active    On  Tag Count:        10631
+~07-44	07/20/10 21:47:56	ALARM	Local:                   COM1 tag codes:     Off
+~07-44	07/20/10 21:47:56	ALARM	Diagnostics for 07:
+~07-44	07/20/10 21:47:56	ALARM	 Temperature:       36C  Exciter power:    16.3V
+~07-44	07/20/10 21:47:56	ALARM	 Exciter current:  3.1A  Signal level:        4%
+~07-44	07/20/10 21:47:56	ALARM	 Exciter phase:      1%  Sync input:          NO
+~07-44	07/20/10 21:47:57	ALARM	 Battery:            OK  Status:           Slave
+~07-44	07/20/10 21:47:57	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~07-44	07/20/10 21:47:57	ALARM	 Current gain:     114%  Current alarm:   2900mA
+~07-44	07/20/10 21:47:57	ALARM	Bit counters
+~07-44	07/20/10 21:47:57	ALARM	 Preambles:        7758  Bad CRC:           5509
+~07-44	07/20/10 21:47:57	ALARM	 Good reads:      37616  Overruns:             0
+~07-44	07/20/10 21:47:57	ALARM	Alarms for 07:
+~07-44	07/20/10 21:47:57	ALARM	 Memory full            
+~09-20	07/20/10 21:47:58	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 14 07/20/10 21:47:58 3E7.0000001D09 09 09 376
+~1C-33	07/20/10 21:47:58	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 21 07/20/10 21:47:58 3E7.0000001D1C 1C 1C 698
+~09-20	07/20/10 21:47:58	ALARM	MESSAGE: Test Tag Found.
+~1C-33	07/20/10 21:47:59	ALARM	MESSAGE: Test Tag Found.
+~0C-29	07/20/10 21:48:08	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1D 07/20/10 21:48:08 3E7.0000001D0C 0C 0C 645
+~0C-29	07/20/10 21:48:09	ALARM	MESSAGE: Test Tag Found.
+~19-24	07/20/10 21:48:29	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 18 07/20/10 21:48:29 3E7.0000001D19 19 19 701
+~19-24	07/20/10 21:48:30	ALARM	MESSAGE: Test Tag Found.
+~1D-42	07/20/10 21:48:51	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2A 07/20/10 21:48:51 3E7.0000001D1D 1D 1D 954
+~1D-42	07/20/10 21:48:52	ALARM	MESSAGE: Test Tag Found.
+~24-35	07/20/10 21:49:45	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 23 07/20/10 21:49:45 3E7.0000001D24 24 24 357
+~24-35	07/20/10 21:49:45	ALARM	MESSAGE: Test Tag Found.
+~24-35	07/20/10 21:49:45	ALARM	Reader info:             Version:    FS1001A 5.0
+~24-35	07/20/10 21:49:45	ALARM	 Active:             On  Unique:             Off
+~24-35	07/20/10 21:49:46	ALARM	 Reader ID#:         24  Master:             Off
+~24-35	07/20/10 21:49:46	ALARM	Communication (N,8,1)
+~24-35	07/20/10 21:49:46	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~24-35	07/20/10 21:49:46	ALARM	Buffer:    Active    On  Tag Count:        10636
+~24-35	07/20/10 21:49:46	ALARM	Local:                   COM1 tag codes:     Off
+~24-35	07/20/10 21:49:46	ALARM	Diagnostics for 24:
+~24-35	07/20/10 21:49:46	ALARM	 Temperature:       36C  Exciter power:    15.0V
+~24-35	07/20/10 21:49:46	ALARM	 Exciter current:  2.8A  Signal level:        4%
+~24-35	07/20/10 21:49:46	ALARM	 Exciter phase:      1%  Sync input:          NO
+~24-35	07/20/10 21:49:46	ALARM	 Battery:            OK  Status:           Slave
+~24-35	07/20/10 21:49:47	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~24-35	07/20/10 21:49:47	ALARM	 Current gain:     100%  Current alarm:   2500mA
+~24-35	07/20/10 21:49:47	ALARM	Bit counters
+~24-35	07/20/10 21:49:47	ALARM	 Preambles:       20415  Bad CRC:            508
+~24-35	07/20/10 21:49:47	ALARM	 Good reads:      18484  Overruns:             0
+~24-35	07/20/10 21:49:47	ALARM	Alarms for 24:
+~24-35	07/20/10 21:49:47	ALARM	 Memory full            
+~02-5	07/20/10 21:52:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 21:52:24	ALARM	Average:      0 %
+~02-5	07/20/10 21:52:24	ALARM	Peak:        18 %
+~02-5	07/20/10 21:52:25	ALARM	FDXB Peak:   18 %
+~04-7	07/20/10 21:55:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 07 07/20/10 21:55:55 3E7.0000001D04 04 04 792
+~04-7	07/20/10 21:55:56	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 21:57:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 21:57:08	ALARM	Average:      0 %
+~03-6	07/20/10 21:57:08	ALARM	Peak:        34 %
+~03-6	07/20/10 21:57:08	ALARM	FDXB Peak:   34 %
+~07/20/10 22:00:10
+~02-5	07/20/10 22:02:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 22:02:24	ALARM	Average:      0 %
+~02-5	07/20/10 22:02:24	ALARM	Peak:        17 %
+~02-5	07/20/10 22:02:24	ALARM	FDXB Peak:   21 %
+~03-6	07/20/10 22:07:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 22:07:08	ALARM	Average:      0 %
+~03-6	07/20/10 22:07:08	ALARM	Peak:        27 %
+~03-6	07/20/10 22:07:08	ALARM	FDXB Peak:   27 %
+~02-5	07/20/10 22:12:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 22:12:24	ALARM	Average:      0 %
+~02-5	07/20/10 22:12:24	ALARM	Peak:         4 %
+~02-5	07/20/10 22:12:24	ALARM	FDXB Peak:   10 %
+~18-49	07/20/10 22:14:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 31 07/20/10 22:14:56 3E7.0000001D18 18 18 786
+~18-49	07/20/10 22:14:57	ALARM	MESSAGE: Test Tag Found.
+~07/20/10 22:15:10
+~04-7	07/20/10 22:15:30	ALARM	Noise report for Reader ID#04
+~04-7	07/20/10 22:15:30	ALARM	Average:      0 %
+~04-7	07/20/10 22:15:30	ALARM	Peak:        34 %
+~04-7	07/20/10 22:15:30	ALARM	FDXB Peak:   34 %
+~03-6	07/20/10 22:17:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 22:17:08	ALARM	Average:      0 %
+~03-6	07/20/10 22:17:08	ALARM	Peak:        28 %
+~03-6	07/20/10 22:17:08	ALARM	FDXB Peak:   31 %
+~13-30	07/20/10 22:20:40	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1E 07/20/10 22:20:40 3E7.0000001D13 13 13 320
+~13-30	07/20/10 22:20:40	ALARM	MESSAGE: Test Tag Found.
+~12-23	07/20/10 22:21:17	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 17 07/20/10 22:21:17 3E7.0000001D12 12 12 819
+~12-23	07/20/10 22:21:18	ALARM	MESSAGE: Test Tag Found.
+~11-22	07/20/10 22:21:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 16 07/20/10 22:21:55 3E7.0000001D11 11 11 059
+~11-22	07/20/10 22:21:55	ALARM	MESSAGE: Test Tag Found.
+~10-47	07/20/10 22:21:57	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2F 07/20/10 22:21:57 3E7.0000001D10 10 10 957
+~10-47	07/20/10 22:21:58	ALARM	MESSAGE: Test Tag Found.
+~0F-46	07/20/10 22:22:03	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2E 07/20/10 22:22:03 3E7.0000001D0F 0F 0F 564
+~0F-46	07/20/10 22:22:04	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 22:22:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 22:22:24	ALARM	Average:      0 %
+~02-5	07/20/10 22:22:24	ALARM	Peak:        30 %
+~02-5	07/20/10 22:22:24	ALARM	FDXB Peak:   30 %
+~14-31	07/20/10 22:25:30	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1F 07/20/10 22:25:30 3E7.0000001D14 14 14 408
+~14-31	07/20/10 22:25:30	ALARM	MESSAGE: Test Tag Found.
+~0E-39	07/20/10 22:26:48	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 27 07/20/10 22:26:48 3E7.0000001D0E 0E 0E 298
+~0E-39	07/20/10 22:26:48	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 22:27:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 22:27:08	ALARM	Average:      0 %
+~03-6	07/20/10 22:27:08	ALARM	Peak:        19 %
+~03-6	07/20/10 22:27:08	ALARM	FDXB Peak:   19 %
+~07/20/10 22:30:09
+~22-27	07/20/10 22:31:31	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1B 07/20/10 22:31:31 3E7.0000001D22 22 22 673
+~22-27	07/20/10 22:31:32	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 22:32:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 22:32:24	ALARM	Average:      0 %
+~02-5	07/20/10 22:32:24	ALARM	Peak:        13 %
+~02-5	07/20/10 22:32:24	ALARM	FDXB Peak:   13 %
+~1E-43	07/20/10 22:32:34	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2B 07/20/10 22:32:34 3E7.0000001D1E 1E 1E 274
+~1E-43	07/20/10 22:32:34	ALARM	MESSAGE: Test Tag Found.
+~1F-50	07/20/10 22:34:39	ALARM	Reader info:             Version:    FS1001A 5.0
+~1F-50	07/20/10 22:34:39	ALARM	 Active:             On  Unique:             Off
+~1F-50	07/20/10 22:34:39	ALARM	 Reader ID#:         1F  Master:             Off
+~1F-50	07/20/10 22:34:39	ALARM	Communication (N,8,1)
+~1F-50	07/20/10 22:34:39	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~1F-50	07/20/10 22:34:39	ALARM	Buffer:    Active    On  Tag Count:        10642
+~1F-50	07/20/10 22:34:39	ALARM	Local:                   COM1 tag codes:     Off
+~1F-50	07/20/10 22:34:39	ALARM	Diagnostics for 1F:
+~1F-50	07/20/10 22:34:39	ALARM	 Temperature:       34C  Exciter power:    16.8V
+~1F-50	07/20/10 22:34:40	ALARM	 Exciter current:  2.9A  Signal level:        3%
+~1F-50	07/20/10 22:34:40	ALARM	 Exciter phase:      1%  Sync input:          NO
+~1F-50	07/20/10 22:34:40	ALARM	 Battery:            OK  Status:           Slave
+~1F-50	07/20/10 22:34:40	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1F-50	07/20/10 22:34:40	ALARM	 Current gain:     115%  Current alarm:   2800mA
+~1F-50	07/20/10 22:34:40	ALARM	Bit counters
+~1F-50	07/20/10 22:34:40	ALARM	 Preambles:       19157  Bad CRC:            123
+~1F-50	07/20/10 22:34:40	ALARM	 Good reads:      16297  Overruns:             0
+~1F-50	07/20/10 22:34:40	ALARM	Alarms for 1F:
+~1F-50	07/20/10 22:34:40	ALARM	 Memory full            
+~01-4	07/20/10 22:35:13	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 04 07/20/10 22:35:13 3E7.0000001D01 01 01 665
+~01-4	07/20/10 22:35:14	ALARM	MESSAGE: Test Tag Found.
+~1E-43	07/20/10 22:35:20	ALARM	Reader info:             Version:    FS1001A 5.0
+~1E-43	07/20/10 22:35:20	ALARM	 Active:             On  Unique:             Off
+~1E-43	07/20/10 22:35:20	ALARM	 Reader ID#:         1E  Master:             Off
+~1E-43	07/20/10 22:35:20	ALARM	Communication (N,8,1)
+~1E-43	07/20/10 22:35:20	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~1E-43	07/20/10 22:35:20	ALARM	Buffer:    Active    On  Tag Count:        10623
+~1E-43	07/20/10 22:35:20	ALARM	Local:                   COM1 tag codes:     Off
+~1E-43	07/20/10 22:35:20	ALARM	Diagnostics for 1E:
+~1E-43	07/20/10 22:35:21	ALARM	 Temperature:       34C  Exciter power:    12.9V
+~1E-43	07/20/10 22:35:21	ALARM	 Exciter current:  3.8A  Signal level:       10%
+~1E-43	07/20/10 22:35:21	ALARM	 Exciter phase:      2%  Sync input:          NO
+~1E-43	07/20/10 22:35:21	ALARM	 Battery:            OK  Status:           Slave
+~1E-43	07/20/10 22:35:21	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1E-43	07/20/10 22:35:21	ALARM	 Current gain:     100%  Current alarm:   3500mA
+~1E-43	07/20/10 22:35:21	ALARM	Bit counters
+~1E-43	07/20/10 22:35:21	ALARM	 Preambles:       24746  Bad CRC:            303
+~1E-43	07/20/10 22:35:21	ALARM	 Good reads:      44500  Overruns:             0
+~1E-43	07/20/10 22:35:21	ALARM	Alarms for 1E:
+~1E-43	07/20/10 22:35:22	ALARM	 Memory full            
+~22-27	07/20/10 22:35:30	ALARM	Reader info:             Version:    FS1001A 5.0
+~22-27	07/20/10 22:35:30	ALARM	 Active:             On  Unique:             Off
+~22-27	07/20/10 22:35:30	ALARM	 Reader ID#:         22  Master:             Off
+~22-27	07/20/10 22:35:30	ALARM	Communication (N,8,1)
+~22-27	07/20/10 22:35:31	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~22-27	07/20/10 22:35:31	ALARM	Buffer:    Active    On  Tag Count:        10643
+~22-27	07/20/10 22:35:31	ALARM	Local:                   COM1 tag codes:     Off
+~22-27	07/20/10 22:35:31	ALARM	Diagnostics for 22:
+~22-27	07/20/10 22:35:31	ALARM	 Temperature:       36C  Exciter power:    13.4V
+~22-27	07/20/10 22:35:31	ALARM	 Exciter current:  4.8A  Signal level:        7%
+~22-27	07/20/10 22:35:31	ALARM	 Exciter phase:      4%  Sync input:          NO
+~22-27	07/20/10 22:35:31	ALARM	 Battery:            OK  Status:           Slave
+~22-27	07/20/10 22:35:31	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~22-27	07/20/10 22:35:31	ALARM	 Current gain:     120%  Current alarm:   4600mA
+~22-27	07/20/10 22:35:32	ALARM	Bit counters
+~22-27	07/20/10 22:35:32	ALARM	 Preambles:       33706  Bad CRC:           3947
+~22-27	07/20/10 22:35:32	ALARM	 Good reads:      40414  Overruns:             0
+~22-27	07/20/10 22:35:32	ALARM	Alarms for 22:
+~22-27	07/20/10 22:35:32	ALARM	 Memory full            
+~20-51	07/20/10 22:35:47	ALARM	Reader info:             Version:    FS1001A 5.0
+~20-51	07/20/10 22:35:47	ALARM	 Active:             On  Unique:             Off
+~20-51	07/20/10 22:35:47	ALARM	 Reader ID#:         20  Master:             Off
+~20-51	07/20/10 22:35:47	ALARM	Communication (N,8,1)
+~20-51	07/20/10 22:35:48	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~20-51	07/20/10 22:35:48	ALARM	Buffer:    Active    On  Tag Count:        10641
+~20-51	07/20/10 22:35:48	ALARM	Local:                   COM1 tag codes:     Off
+~20-51	07/20/10 22:35:48	ALARM	Diagnostics for 20:
+~20-51	07/20/10 22:35:48	ALARM	 Temperature:       36C  Exciter power:    13.7V
+~20-51	07/20/10 22:35:48	ALARM	 Exciter current:  3.6A  Signal level:        7%
+~20-51	07/20/10 22:35:48	ALARM	 Exciter phase:      2%  Sync input:          NO
+~20-51	07/20/10 22:35:48	ALARM	 Battery:            OK  Status:           Slave
+~20-51	07/20/10 22:35:48	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~20-51	07/20/10 22:35:48	ALARM	 Current gain:     125%  Current alarm:   2500mA
+~20-51	07/20/10 22:35:49	ALARM	Bit counters
+~20-51	07/20/10 22:35:49	ALARM	 Preambles:       45242  Bad CRC:            826
+~20-51	07/20/10 22:35:49	ALARM	 Good reads:      34875  Overruns:             0
+~20-51	07/20/10 22:35:49	ALARM	Alarms for 20:
+~20-51	07/20/10 22:35:49	ALARM	 Memory full            
+~03-6	07/20/10 22:37:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 22:37:08	ALARM	Average:      0 %
+~03-6	07/20/10 22:37:08	ALARM	Peak:        32 %
+~03-6	07/20/10 22:37:08	ALARM	FDXB Peak:   33 %
+~12-23	07/20/10 22:37:26	ALARM	Reader info:             Version:    FS1001A 5.0
+~12-23	07/20/10 22:37:26	ALARM	 Active:             On  Unique:             Off
+~12-23	07/20/10 22:37:26	ALARM	 Reader ID#:         12  Master:             Off
+~12-23	07/20/10 22:37:27	ALARM	Communication (N,8,1)
+~12-23	07/20/10 22:37:27	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~12-23	07/20/10 22:37:27	ALARM	Buffer:    Active    On  Tag Count:        10650
+~12-23	07/20/10 22:37:27	ALARM	Local:                   COM1 tag codes:     Off
+~12-23	07/20/10 22:37:27	ALARM	Diagnostics for 12:
+~12-23	07/20/10 22:37:27	ALARM	 Temperature:       34C  Exciter power:    14.8V
+~12-23	07/20/10 22:37:27	ALARM	 Exciter current:  4.0A  Signal level:        5%
+~12-23	07/20/10 22:37:27	ALARM	 Exciter phase:      3%  Sync input:          NO
+~12-23	07/20/10 22:37:27	ALARM	 Battery:            OK  Status:           Slave
+~12-23	07/20/10 22:37:27	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~12-23	07/20/10 22:37:28	ALARM	 Current gain:     104%  Current alarm:   3700mA
+~12-23	07/20/10 22:37:28	ALARM	Bit counters
+~12-23	07/20/10 22:37:28	ALARM	 Preambles:       45327  Bad CRC:            461
+~12-23	07/20/10 22:37:28	ALARM	 Good reads:      21583  Overruns:             0
+~12-23	07/20/10 22:37:28	ALARM	Alarms for 12:
+~12-23	07/20/10 22:37:28	ALARM	 Memory full            
+~10-47	07/20/10 22:37:58	ALARM	Reader info:             Version:    FS1001A 5.0
+~10-47	07/20/10 22:37:58	ALARM	 Active:             On  Unique:             Off
+~10-47	07/20/10 22:37:59	ALARM	 Reader ID#:         10  Master:             Off
+~10-47	07/20/10 22:37:59	ALARM	Communication (N,8,1)
+~10-47	07/20/10 22:37:59	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~10-47	07/20/10 22:37:59	ALARM	Buffer:    Active    On  Tag Count:        10603
+~10-47	07/20/10 22:37:59	ALARM	Local:                   COM1 tag codes:     Off
+~10-47	07/20/10 22:37:59	ALARM	Diagnostics for 10:
+~10-47	07/20/10 22:37:59	ALARM	 Temperature:       36C  Exciter power:    14.5V
+~10-47	07/20/10 22:37:59	ALARM	 Exciter current:  3.8A  Signal level:        7%
+~10-47	07/20/10 22:37:59	ALARM	 Exciter phase:      4%  Sync input:          NO
+~10-47	07/20/10 22:37:59	ALARM	 Battery:            OK  Status:           Slave
+~10-47	07/20/10 22:38:00	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~10-47	07/20/10 22:38:00	ALARM	 Current gain:     100%  Current alarm:   2500mA
+~10-47	07/20/10 22:38:00	ALARM	Bit counters
+~10-47	07/20/10 22:38:00	ALARM	 Preambles:       30859  Bad CRC:            941
+~10-47	07/20/10 22:38:00	ALARM	 Good reads:      21318  Overruns:             0
+~10-47	07/20/10 22:38:00	ALARM	Alarms for 10:
+~10-47	07/20/10 22:38:00	ALARM	 Memory full            
+~0F-46	07/20/10 22:38:07	ALARM	Reader info:             Version:    FS1001A 5.0
+~0F-46	07/20/10 22:38:07	ALARM	 Active:             On  Unique:             Off
+~0F-46	07/20/10 22:38:07	ALARM	 Reader ID#:         0F  Master:             Off
+~0F-46	07/20/10 22:38:07	ALARM	Communication (N,8,1)
+~0F-46	07/20/10 22:38:07	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~0F-46	07/20/10 22:38:07	ALARM	Buffer:    Active    On  Tag Count:        10614
+~0F-46	07/20/10 22:38:08	ALARM	Local:                   COM1 tag codes:     Off
+~0F-46	07/20/10 22:38:08	ALARM	Diagnostics for 0F:
+~0F-46	07/20/10 22:38:08	ALARM	 Temperature:       32C  Exciter power:    16.5V
+~0F-46	07/20/10 22:38:08	ALARM	 Exciter current:  1.6A  Signal level:        3%
+~0F-46	07/20/10 22:38:08	ALARM	 Exciter phase:      1%  Sync input:          NO
+~0F-46	07/20/10 22:38:08	ALARM	 Battery:            OK  Status:           Slave
+~0F-46	07/20/10 22:38:08	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~0F-46	07/20/10 22:38:08	ALARM	 Current gain:     100%  Current alarm:   1200mA
+~0F-46	07/20/10 22:38:08	ALARM	Bit counters
+~0F-46	07/20/10 22:38:08	ALARM	 Preambles:        2960  Bad CRC:            826
+~0F-46	07/20/10 22:38:09	ALARM	 Good reads:      20739  Overruns:             0
+~0F-46	07/20/10 22:38:09	ALARM	Alarms for 0F:
+~0F-46	07/20/10 22:38:09	ALARM	 Memory full            
+~11-22	07/20/10 22:38:14	ALARM	Reader info:             Version:    FS1001A 5.0
+~11-22	07/20/10 22:38:15	ALARM	 Active:             On  Unique:             Off
+~11-22	07/20/10 22:38:15	ALARM	 Reader ID#:         11  Master:             Off
+~11-22	07/20/10 22:38:15	ALARM	Communication (N,8,1)
+~11-22	07/20/10 22:38:15	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~11-22	07/20/10 22:38:15	ALARM	Buffer:    Active    On  Tag Count:        10604
+~11-22	07/20/10 22:38:15	ALARM	Local:                   COM1 tag codes:     Off
+~11-22	07/20/10 22:38:15	ALARM	Diagnostics for 11:
+~11-22	07/20/10 22:38:15	ALARM	 Temperature:       34C  Exciter power:    16.7V
+~11-22	07/20/10 22:38:15	ALARM	 Exciter current:  3.0A  Signal level:        2%
+~11-22	07/20/10 22:38:15	ALARM	 Exciter phase:      1%  Sync input:          NO
+~11-22	07/20/10 22:38:16	ALARM	 Battery:            OK  Status:           Slave
+~11-22	07/20/10 22:38:16	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~11-22	07/20/10 22:38:16	ALARM	 Current gain:     110%  Current alarm:   2900mA
+~11-22	07/20/10 22:38:16	ALARM	Bit counters
+~11-22	07/20/10 22:38:16	ALARM	 Preambles:       52562  Bad CRC:           3578
+~11-22	07/20/10 22:38:16	ALARM	 Good reads:      25900  Overruns:             0
+~11-22	07/20/10 22:38:16	ALARM	Alarms for 11:
+~11-22	07/20/10 22:38:16	ALARM	 Memory full            
+~20-51	07/20/10 22:40:29	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 33 07/20/10 22:40:29 3E7.0000001D20 20 20 654
+~20-51	07/20/10 22:40:30	ALARM	MESSAGE: Test Tag Found.
+~1F-50	07/20/10 22:41:07	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 32 07/20/10 22:41:07 3E7.0000001D1F 1F 1F 188
+~1F-50	07/20/10 22:41:07	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 22:42:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 22:42:24	ALARM	Average:      0 %
+~02-5	07/20/10 22:42:24	ALARM	Peak:         6 %
+~02-5	07/20/10 22:42:24	ALARM	FDXB Peak:   10 %
+~18-49	07/20/10 22:42:34	ALARM	Reader info:             Version:    FS1001A 5.0
+~18-49	07/20/10 22:42:34	ALARM	 Active:             On  Unique:             Off
+~18-49	07/20/10 22:42:34	ALARM	 Reader ID#:         18  Master:             Off
+~18-49	07/20/10 22:42:34	ALARM	Communication (N,8,1)
+~18-49	07/20/10 22:42:35	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~18-49	07/20/10 22:42:35	ALARM	Buffer:    Active    On  Tag Count:        10649
+~18-49	07/20/10 22:42:35	ALARM	Local:                   COM1 tag codes:     Off
+~18-49	07/20/10 22:42:35	ALARM	Diagnostics for 18:
+~18-49	07/20/10 22:42:35	ALARM	 Temperature:       38C  Exciter power:    13.0V
+~18-49	07/20/10 22:42:35	ALARM	 Exciter current:  4.6A  Signal level:        5%
+~18-49	07/20/10 22:42:35	ALARM	 Exciter phase:      4%  Sync input:          NO
+~18-49	07/20/10 22:42:35	ALARM	 Battery:            OK  Status:           Slave
+~18-49	07/20/10 22:42:35	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~18-49	07/20/10 22:42:35	ALARM	 Current gain:      93%  Current alarm:   4000mA
+~18-49	07/20/10 22:42:36	ALARM	Bit counters
+~18-49	07/20/10 22:42:36	ALARM	 Preambles:       45900  Bad CRC:           1794
+~18-49	07/20/10 22:42:36	ALARM	 Good reads:      52433  Overruns:             0
+~18-49	07/20/10 22:42:36	ALARM	Alarms for 18:
+~18-49	07/20/10 22:42:36	ALARM	 Memory full            
+~02-5	07/20/10 22:42:52	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 05 07/20/10 22:42:52 3E7.0000001D02 02 02 181
+~02-5	07/20/10 22:42:52	ALARM	MESSAGE: Test Tag Found.
+~07/20/10 22:45:09
+~04-7	07/20/10 22:45:29	ALARM	Noise report for Reader ID#04
+~04-7	07/20/10 22:45:30	ALARM	Average:      0 %
+~04-7	07/20/10 22:45:30	ALARM	Peak:        32 %
+~04-7	07/20/10 22:45:30	ALARM	FDXB Peak:   46 %
+~1A-25	07/20/10 22:46:25	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 19 07/20/10 22:46:25 3E7.0000001D1A 1A 1A 123
+~1A-25	07/20/10 22:46:25	ALARM	MESSAGE: Test Tag Found.
+~1A-25	07/20/10 22:46:25	ALARM	Reader info:             Version:    FS1001A 5.0
+~1A-25	07/20/10 22:46:25	ALARM	 Active:             On  Unique:             Off
+~1A-25	07/20/10 22:46:25	ALARM	 Reader ID#:         1A  Master:             Off
+~1A-25	07/20/10 22:46:25	ALARM	Communication (N,8,1)
+~1A-25	07/20/10 22:46:25	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~1A-25	07/20/10 22:46:26	ALARM	Buffer:    Active    On  Tag Count:        10625
+~1A-25	07/20/10 22:46:26	ALARM	Local:                   COM1 tag codes:     Off
+~1A-25	07/20/10 22:46:26	ALARM	Diagnostics for 1A:
+~1A-25	07/20/10 22:46:26	ALARM	 Temperature:       38C  Exciter power:    13.3V
+~1A-25	07/20/10 22:46:26	ALARM	 Exciter current:  4.7A  Signal level:        4%
+~1A-25	07/20/10 22:46:26	ALARM	 Exciter phase:      3%  Sync input:          NO
+~1A-25	07/20/10 22:46:26	ALARM	 Battery:            OK  Status:           Slave
+~1A-25	07/20/10 22:46:26	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1A-25	07/20/10 22:46:26	ALARM	 Current gain:      93%  Current alarm:   4300mA
+~1A-25	07/20/10 22:46:26	ALARM	Bit counters
+~1A-25	07/20/10 22:46:27	ALARM	 Preambles:       14231  Bad CRC:            242
+~1A-25	07/20/10 22:46:27	ALARM	 Good reads:      39945  Overruns:             0
+~1A-25	07/20/10 22:46:27	ALARM	Alarms for 1A:
+~1A-25	07/20/10 22:46:27	ALARM	 Memory full            
+~03-6	07/20/10 22:46:31	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 06 07/20/10 22:46:31 3E7.0000001D03 03 03 115
+~03-6	07/20/10 22:46:31	ALARM	MESSAGE: Test Tag Found.
+~06-37	07/20/10 22:46:40	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 25 07/20/10 22:46:41 3E7.0000001D06 06 06 006
+~06-37	07/20/10 22:46:41	ALARM	MESSAGE: Test Tag Found.
+~06-37	07/20/10 22:46:41	ALARM	Reader info:             Version:    FS1001A 5.0
+~06-37	07/20/10 22:46:41	ALARM	 Active:             On  Unique:             Off
+~06-37	07/20/10 22:46:41	ALARM	 Reader ID#:         06  Master:             Off
+~06-37	07/20/10 22:46:41	ALARM	Communication (N,8,1)
+~06-37	07/20/10 22:46:41	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~06-37	07/20/10 22:46:41	ALARM	Buffer:    Active    On  Tag Count:        10647
+~06-37	07/20/10 22:46:42	ALARM	Local:                   COM1 tag codes:     Off
+~06-37	07/20/10 22:46:42	ALARM	Diagnostics for 06:
+~06-37	07/20/10 22:46:42	ALARM	 Temperature:       34C  Exciter power:    15.3V
+~06-37	07/20/10 22:46:42	ALARM	 Exciter current:  3.1A  Signal level:        4%
+~06-37	07/20/10 22:46:42	ALARM	 Exciter phase:      1%  Sync input:          NO
+~06-37	07/20/10 22:46:42	ALARM	 Battery:            OK  Status:           Slave
+~06-37	07/20/10 22:46:42	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~06-37	07/20/10 22:46:42	ALARM	 Current gain:     119%  Current alarm:   2500mA
+~06-37	07/20/10 22:46:42	ALARM	Bit counters
+~06-37	07/20/10 22:46:42	ALARM	 Preambles:        7316  Bad CRC:           2417
+~06-37	07/20/10 22:46:43	ALARM	 Good reads:      53589  Overruns:             0
+~06-37	07/20/10 22:46:43	ALARM	Alarms for 06:
+~06-37	07/20/10 22:46:43	ALARM	 Memory full            
+~05-36	07/20/10 22:46:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 24 07/20/10 22:46:56 3E7.0000001D05 05 05 280
+~05-36	07/20/10 22:46:56	ALARM	MESSAGE: Test Tag Found.
+~05-36	07/20/10 22:46:56	ALARM	Reader info:             Version:    FS1001A 5.0
+~05-36	07/20/10 22:46:56	ALARM	 Active:             On  Unique:             Off
+~05-36	07/20/10 22:46:56	ALARM	 Reader ID#:         05  Master:             Off
+~05-36	07/20/10 22:46:57	ALARM	Communication (N,8,1)
+~05-36	07/20/10 22:46:57	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~05-36	07/20/10 22:46:57	ALARM	Buffer:    Active    On  Tag Count:        10633
+~05-36	07/20/10 22:46:57	ALARM	Local:                   COM1 tag codes:     Off
+~05-36	07/20/10 22:46:57	ALARM	Diagnostics for 05:
+~05-36	07/20/10 22:46:57	ALARM	 Temperature:       34C  Exciter power:    16.4V
+~05-36	07/20/10 22:46:57	ALARM	 Exciter current:  2.9A  Signal level:        3%
+~05-36	07/20/10 22:46:57	ALARM	 Exciter phase:      0%  Sync input:          NO
+~05-36	07/20/10 22:46:57	ALARM	 Battery:            OK  Status:           Slave
+~05-36	07/20/10 22:46:57	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~05-36	07/20/10 22:46:58	ALARM	 Current gain:     114%  Current alarm:   2700mA
+~05-36	07/20/10 22:46:58	ALARM	Bit counters
+~05-36	07/20/10 22:46:58	ALARM	 Preambles:       25937  Bad CRC:           1251
+~05-36	07/20/10 22:46:58	ALARM	 Good reads:      22343  Overruns:             0
+~05-36	07/20/10 22:46:58	ALARM	Alarms for 05:
+~05-36	07/20/10 22:46:58	ALARM	 Memory full            
+~0D-38	07/20/10 22:47:00	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 26 07/20/10 22:47:00 3E7.0000001D0D 0D 0D 788
+~0D-38	07/20/10 22:47:01	ALARM	MESSAGE: Test Tag Found.
+~0D-38	07/20/10 22:47:01	ALARM	Reader info:             Version:    FS1001A 5.0
+~0D-38	07/20/10 22:47:01	ALARM	 Active:             On  Unique:             Off
+~0D-38	07/20/10 22:47:01	ALARM	 Reader ID#:         0D  Master:             Off
+~0D-38	07/20/10 22:47:01	ALARM	Communication (N,8,1)
+~0D-38	07/20/10 22:47:01	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~0D-38	07/20/10 22:47:01	ALARM	Buffer:    Active    On  Tag Count:        10642
+~0D-38	07/20/10 22:47:01	ALARM	Local:                   COM1 tag codes:     Off
+~0D-38	07/20/10 22:47:01	ALARM	Diagnostics for 0D:
+~0D-38	07/20/10 22:47:02	ALARM	 Temperature:       34C  Exciter power:    16.6V
+~0D-38	07/20/10 22:47:02	ALARM	 Exciter current:  1.8A  Signal level:        7%
+~0D-38	07/20/10 22:47:02	ALARM	 Exciter phase:      2%  Sync input:          NO
+~0D-38	07/20/10 22:47:02	ALARM	 Battery:            OK  Status:           Slave
+~0D-38	07/20/10 22:47:02	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~0D-38	07/20/10 22:47:02	ALARM	 Current gain:     100%  Current alarm:   1500mA
+~0D-38	07/20/10 22:47:02	ALARM	Bit counters
+~0D-38	07/20/10 22:47:02	ALARM	 Preambles:       31687  Bad CRC:          21285
+~0D-38	07/20/10 22:47:02	ALARM	 Good reads:       7060  Overruns:             0
+~0D-38	07/20/10 22:47:02	ALARM	Alarms for 0D:
+~0D-38	07/20/10 22:47:03	ALARM	 Memory full            
+~03-6	07/20/10 22:47:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 22:47:08	ALARM	Average:      0 %
+~03-6	07/20/10 22:47:08	ALARM	Peak:        14 %
+~03-6	07/20/10 22:47:08	ALARM	FDXB Peak:   31 %
+~16-41	07/20/10 22:47:09	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 29 07/20/10 22:47:09 3E7.0000001D16 16 16 552
+~16-41	07/20/10 22:47:10	ALARM	MESSAGE: Test Tag Found.
+~16-41	07/20/10 22:47:10	ALARM	Reader info:             Version:    FS1001A 5.0
+~16-41	07/20/10 22:47:10	ALARM	 Active:             On  Unique:             Off
+~16-41	07/20/10 22:47:10	ALARM	 Reader ID#:         16  Master:             Off
+~16-41	07/20/10 22:47:10	ALARM	Communication (N,8,1)
+~16-41	07/20/10 22:47:10	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~16-41	07/20/10 22:47:10	ALARM	Buffer:    Active    On  Tag Count:        10608
+~16-41	07/20/10 22:47:10	ALARM	Local:                   COM1 tag codes:     Off
+~16-41	07/20/10 22:47:10	ALARM	Diagnostics for 16:
+~16-41	07/20/10 22:47:10	ALARM	 Temperature:       36C  Exciter power:    12.1V
+~16-41	07/20/10 22:47:10	ALARM	 Exciter current:  3.6A  Signal level:        2%
+~16-41	07/20/10 22:47:11	ALARM	 Exciter phase:      1%  Sync input:          NO
+~16-41	07/20/10 22:47:11	ALARM	 Battery:            OK  Status:           Slave
+~16-41	07/20/10 22:47:11	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~16-41	07/20/10 22:47:11	ALARM	 Current gain:     119%  Current alarm:   3200mA
+~16-41	07/20/10 22:47:11	ALARM	Bit counters
+~16-41	07/20/10 22:47:11	ALARM	 Preambles:       47116  Bad CRC:           5737
+~16-41	07/20/10 22:47:11	ALARM	 Good reads:      41489  Overruns:             0
+~16-41	07/20/10 22:47:11	ALARM	Alarms for 16:
+~16-41	07/20/10 22:47:11	ALARM	 Memory full            
+~0A-21	07/20/10 22:47:23	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 15 07/20/10 22:47:24 3E7.0000001D0A 0A 0A 042
+~0A-21	07/20/10 22:47:24	ALARM	MESSAGE: Test Tag Found.
+~0A-21	07/20/10 22:47:24	ALARM	Reader info:             Version:    FS1001A 5.0
+~0A-21	07/20/10 22:47:24	ALARM	 Active:             On  Unique:             Off
+~0A-21	07/20/10 22:47:24	ALARM	 Reader ID#:         0A  Master:             Off
+~0A-21	07/20/10 22:47:24	ALARM	Communication (N,8,1)
+~0A-21	07/20/10 22:47:24	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~0A-21	07/20/10 22:47:24	ALARM	Buffer:    Active    On  Tag Count:        10623
+~0A-21	07/20/10 22:47:25	ALARM	Local:                   COM1 tag codes:     Off
+~0A-21	07/20/10 22:47:25	ALARM	Diagnostics for 0A:
+~0A-21	07/20/10 22:47:25	ALARM	 Temperature:       36C  Exciter power:    12.5V
+~0A-21	07/20/10 22:47:25	ALARM	 Exciter current:  3.7A  Signal level:        2%
+~0A-21	07/20/10 22:47:25	ALARM	 Exciter phase:      1%  Sync input:          NO
+~0A-21	07/20/10 22:47:25	ALARM	 Battery:            OK  Status:           Slave
+~0A-21	07/20/10 22:47:25	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~0A-21	07/20/10 22:47:25	ALARM	 Current gain:     108%  Current alarm:   3500mA
+~0A-21	07/20/10 22:47:25	ALARM	Bit counters
+~0A-21	07/20/10 22:47:25	ALARM	 Preambles:       47940  Bad CRC:           4061
+~0A-21	07/20/10 22:47:26	ALARM	 Good reads:      28690  Overruns:             0
+~0A-21	07/20/10 22:47:26	ALARM	Alarms for 0A:
+~0A-21	07/20/10 22:47:26	ALARM	 Memory full            
+~08-45	07/20/10 22:47:36	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2D 07/20/10 22:47:36 3E7.0000001D08 08 08 922
+~08-45	07/20/10 22:47:37	ALARM	MESSAGE: Test Tag Found.
+~08-45	07/20/10 22:47:37	ALARM	Reader info:             Version:    FS1001A 5.0
+~08-45	07/20/10 22:47:37	ALARM	 Active:             On  Unique:             Off
+~08-45	07/20/10 22:47:37	ALARM	 Reader ID#:         08  Master:             Off
+~08-45	07/20/10 22:47:37	ALARM	Communication (N,8,1)
+~08-45	07/20/10 22:47:37	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~08-45	07/20/10 22:47:37	ALARM	Buffer:    Active    On  Tag Count:        10633
+~08-45	07/20/10 22:47:37	ALARM	Local:                   COM1 tag codes:     Off
+~08-45	07/20/10 22:47:38	ALARM	Diagnostics for 08:
+~08-45	07/20/10 22:47:38	ALARM	 Temperature:       36C  Exciter power:    12.6V
+~08-45	07/20/10 22:47:38	ALARM	 Exciter current:  3.9A  Signal level:        4%
+~08-45	07/20/10 22:47:38	ALARM	 Exciter phase:      2%  Sync input:          NO
+~08-45	07/20/10 22:47:38	ALARM	 Battery:            OK  Status:           Slave
+~08-45	07/20/10 22:47:38	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~08-45	07/20/10 22:47:38	ALARM	 Current gain:     114%  Current alarm:   3700mA
+~08-45	07/20/10 22:47:38	ALARM	Bit counters
+~08-45	07/20/10 22:47:38	ALARM	 Preambles:       27927  Bad CRC:            285
+~08-45	07/20/10 22:47:38	ALARM	 Good reads:      25537  Overruns:             0
+~08-45	07/20/10 22:47:39	ALARM	Alarms for 08:
+~08-45	07/20/10 22:47:39	ALARM	 Memory full            
+~23-34	07/20/10 22:47:43	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 22 07/20/10 22:47:43 3E7.0000001D23 23 23 292
+~23-34	07/20/10 22:47:43	ALARM	MESSAGE: Test Tag Found.
+~23-34	07/20/10 22:47:43	ALARM	Reader info:             Version:    FS1001A 5.0
+~23-34	07/20/10 22:47:43	ALARM	 Active:             On  Unique:             Off
+~23-34	07/20/10 22:47:43	ALARM	 Reader ID#:         23  Master:             Off
+~23-34	07/20/10 22:47:44	ALARM	Communication (N,8,1)
+~23-34	07/20/10 22:47:44	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~23-34	07/20/10 22:47:44	ALARM	Buffer:    Active    On  Tag Count:        10620
+~23-34	07/20/10 22:47:44	ALARM	Local:                   COM1 tag codes:     Off
+~23-34	07/20/10 22:47:44	ALARM	Diagnostics for 23:
+~23-34	07/20/10 22:47:44	ALARM	 Temperature:       32C  Exciter power:    16.2V
+~23-34	07/20/10 22:47:44	ALARM	 Exciter current:  2.5A  Signal level:        6%
+~23-34	07/20/10 22:47:44	ALARM	 Exciter phase:      3%  Sync input:          NO
+~23-34	07/20/10 22:47:44	ALARM	 Battery:            OK  Status:           Slave
+~23-34	07/20/10 22:47:44	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~23-34	07/20/10 22:47:45	ALARM	 Current gain:     119%  Current alarm:   2300mA
+~23-34	07/20/10 22:47:45	ALARM	Bit counters
+~23-34	07/20/10 22:47:45	ALARM	 Preambles:       16675  Bad CRC:            266
+~23-34	07/20/10 22:47:45	ALARM	 Good reads:      13985  Overruns:             0
+~23-34	07/20/10 22:47:45	ALARM	Alarms for 23:
+~23-34	07/20/10 22:47:45	ALARM	 Memory full            
+~21-26	07/20/10 22:47:45	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1A 07/20/10 22:47:45 3E7.0000001D21 21 21 987
+~21-26	07/20/10 22:47:46	ALARM	MESSAGE: Test Tag Found.
+~21-26	07/20/10 22:47:46	ALARM	Reader info:             Version:    FS1001A 5.0
+~21-26	07/20/10 22:47:46	ALARM	 Active:             On  Unique:             Off
+~21-26	07/20/10 22:47:46	ALARM	 Reader ID#:         21  Master:             Off
+~21-26	07/20/10 22:47:46	ALARM	Communication (N,8,1)
+~21-26	07/20/10 22:47:46	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~21-26	07/20/10 22:47:46	ALARM	Buffer:    Active    On  Tag Count:        10632
+~21-26	07/20/10 22:47:47	ALARM	Local:                   COM1 tag codes:     Off
+~21-26	07/20/10 22:47:47	ALARM	Diagnostics for 21:
+~21-26	07/20/10 22:47:47	ALARM	 Temperature:       36C  Exciter power:    15.4V
+~21-26	07/20/10 22:47:47	ALARM	 Exciter current:  4.0A  Signal level:        7%
+~21-26	07/20/10 22:47:47	ALARM	 Exciter phase:      2%  Sync input:          NO
+~21-26	07/20/10 22:47:47	ALARM	 Battery:            OK  Status:           Slave
+~21-26	07/20/10 22:47:47	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~21-26	07/20/10 22:47:47	ALARM	 Current gain:     102%  Current alarm:   3700mA
+~21-26	07/20/10 22:47:47	ALARM	Bit counters
+~21-26	07/20/10 22:47:47	ALARM	 Preambles:       17398  Bad CRC:            139
+~21-26	07/20/10 22:47:48	ALARM	 Good reads:      16037  Overruns:             0
+~21-26	07/20/10 22:47:48	ALARM	Alarms for 21:
+~21-26	07/20/10 22:47:48	ALARM	 Memory full            
+~15-40	07/20/10 22:47:48	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 28 07/20/10 22:47:48 3E7.0000001D15 15 15 948
+~15-40	07/20/10 22:47:49	ALARM	MESSAGE: Test Tag Found.
+~15-40	07/20/10 22:47:49	ALARM	Reader info:             Version:    FS1001A 5.0
+~15-40	07/20/10 22:47:49	ALARM	 Active:             On  Unique:             Off
+~15-40	07/20/10 22:47:49	ALARM	 Reader ID#:         15  Master:             Off
+~15-40	07/20/10 22:47:49	ALARM	Communication (N,8,1)
+~1B-32	07/20/10 22:47:49	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 20 07/20/10 22:47:49 3E7.0000001D1B 1B 1B 789
+~15-40	07/20/10 22:47:49	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~15-40	07/20/10 22:47:49	ALARM	Buffer:    Active    On  Tag Count:        10621
+~15-40	07/20/10 22:47:49	ALARM	Local:                   COM1 tag codes:     Off
+~15-40	07/20/10 22:47:50	ALARM	Diagnostics for 15:
+~15-40	07/20/10 22:47:50	ALARM	 Temperature:       34C  Exciter power:    16.4V
+~1B-32	07/20/10 22:47:50	ALARM	MESSAGE: Test Tag Found.
+~1B-32	07/20/10 22:47:50	ALARM	Reader info:             Version:    FS1001A 5.0
+~15-40	07/20/10 22:47:50	ALARM	 Exciter current:  2.2A  Signal level:        2%
+~1B-32	07/20/10 22:47:50	ALARM	 Active:             On  Unique:             Off
+~15-40	07/20/10 22:47:50	ALARM	 Exciter phase:      3%  Sync input:          NO
+~1B-32	07/20/10 22:47:50	ALARM	 Reader ID#:         1B  Master:             Off
+~15-40	07/20/10 22:47:50	ALARM	 Battery:            OK  Status:           Slave
+~1B-32	07/20/10 22:47:50	ALARM	Communication (N,8,1)
+~15-40	07/20/10 22:47:50	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1B-32	07/20/10 22:47:50	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~15-40	07/20/10 22:47:50	ALARM	 Current gain:     129%  Current alarm:   2100mA
+~1B-32	07/20/10 22:47:50	ALARM	Buffer:    Active    On  Tag Count:        10639
+~15-40	07/20/10 22:47:50	ALARM	Bit counters
+~1B-32	07/20/10 22:47:50	ALARM	Local:                   COM1 tag codes:     Off
+~15-40	07/20/10 22:47:50	ALARM	 Preambles:       18518  Bad CRC:           1324
+~1B-32	07/20/10 22:47:50	ALARM	Diagnostics for 1B:
+~15-40	07/20/10 22:47:50	ALARM	 Good reads:      16013  Overruns:             0
+~1B-32	07/20/10 22:47:51	ALARM	 Temperature:       36C  Exciter power:    16.3V
+~15-40	07/20/10 22:47:51	ALARM	Alarms for 15:
+~1B-32	07/20/10 22:47:51	ALARM	 Exciter current:  2.9A  Signal level:        4%
+~15-40	07/20/10 22:47:51	ALARM	 Memory full            
+~1B-32	07/20/10 22:47:51	ALARM	 Exciter phase:      1%  Sync input:          NO
+~1B-32	07/20/10 22:47:51	ALARM	 Battery:            OK  Status:           Slave
+~1B-32	07/20/10 22:47:51	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1B-32	07/20/10 22:47:51	ALARM	 Current gain:     122%  Current alarm:   2400mA
+~1B-32	07/20/10 22:47:51	ALARM	Bit counters
+~1B-32	07/20/10 22:47:51	ALARM	 Preambles:       18859  Bad CRC:            311
+~1B-32	07/20/10 22:47:51	ALARM	 Good reads:      15608  Overruns:             0
+~1B-32	07/20/10 22:47:51	ALARM	Alarms for 1B:
+~1B-32	07/20/10 22:47:52	ALARM	 Memory full            
+~17-48	07/20/10 22:47:53	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 30 07/20/10 22:47:53 3E7.0000001D17 17 17 120
+~17-48	07/20/10 22:47:53	ALARM	MESSAGE: Test Tag Found.
+~17-48	07/20/10 22:47:53	ALARM	Reader info:             Version:    FS1001A 5.0
+~17-48	07/20/10 22:47:53	ALARM	 Active:             On  Unique:             Off
+~17-48	07/20/10 22:47:53	ALARM	 Reader ID#:         17  Master:             Off
+~17-48	07/20/10 22:47:53	ALARM	Communication (N,8,1)
+~17-48	07/20/10 22:47:53	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~17-48	07/20/10 22:47:54	ALARM	Buffer:    Active    On  Tag Count:        10615
+~17-48	07/20/10 22:47:54	ALARM	Local:                   COM1 tag codes:     Off
+~17-48	07/20/10 22:47:54	ALARM	Diagnostics for 17:
+~17-48	07/20/10 22:47:54	ALARM	 Temperature:       34C  Exciter power:    14.7V
+~17-48	07/20/10 22:47:54	ALARM	 Exciter current:  2.8A  Signal level:        2%
+~17-48	07/20/10 22:47:54	ALARM	 Exciter phase:      3%  Sync input:          NO
+~17-48	07/20/10 22:47:54	ALARM	 Battery:            OK  Status:           Slave
+~17-48	07/20/10 22:47:54	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~17-48	07/20/10 22:47:54	ALARM	 Current gain:     125%  Current alarm:   2000mA
+~0B-28	07/20/10 22:47:54	ALARM	MESSAGE: Single-shot test with Test Tag.
+~17-48	07/20/10 22:47:54	ALARM	Bit counters
+| 1C 07/20/10 22:47:54 3E7.0000001D0B 0B 0B 975
+~17-48	07/20/10 22:47:55	ALARM	 Preambles:       24771  Bad CRC:           2163
+~17-48	07/20/10 22:47:55	ALARM	 Good reads:      16818  Overruns:             0
+~17-48	07/20/10 22:47:55	ALARM	Alarms for 17:
+~17-48	07/20/10 22:47:55	ALARM	 Memory full            
+~0B-28	07/20/10 22:47:55	ALARM	MESSAGE: Test Tag Found.
+~0B-28	07/20/10 22:47:55	ALARM	Reader info:             Version:    FS1001A 5.0
+~0B-28	07/20/10 22:47:55	ALARM	 Active:             On  Unique:             Off
+~0B-28	07/20/10 22:47:55	ALARM	 Reader ID#:         0B  Master:             Off
+~0B-28	07/20/10 22:47:55	ALARM	Communication (N,8,1)
+~0B-28	07/20/10 22:47:55	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~0B-28	07/20/10 22:47:55	ALARM	Buffer:    Active    On  Tag Count:        10606
+~0B-28	07/20/10 22:47:55	ALARM	Local:                   COM1 tag codes:     Off
+~0B-28	07/20/10 22:47:56	ALARM	Diagnostics for 0B:
+~0B-28	07/20/10 22:47:56	ALARM	 Temperature:       36C  Exciter power:    16.0V
+~07-44	07/20/10 22:47:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+~0B-28	07/20/10 22:47:56	ALARM	 Exciter current:  3.6A  Signal level:        7%
+| 2C 07/20/10 22:47:56 3E7.0000001D07 07 07 319
+~0B-28	07/20/10 22:47:56	ALARM	 Exciter phase:      3%  Sync input:          NO
+~0B-28	07/20/10 22:47:56	ALARM	 Battery:            OK  Status:           Slave
+~0B-28	07/20/10 22:47:56	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~0B-28	07/20/10 22:47:56	ALARM	 Current gain:     112%  Current alarm:   3200mA
+~0B-28	07/20/10 22:47:56	ALARM	Bit counters
+~07-44	07/20/10 22:47:56	ALARM	MESSAGE: Test Tag Found.
+~0B-28	07/20/10 22:47:56	ALARM	 Preambles:        2092  Bad CRC:            273
+~0B-28	07/20/10 22:47:56	ALARM	 Good reads:      23845  Overruns:             0
+~0B-28	07/20/10 22:47:57	ALARM	Alarms for 0B:
+~0B-28	07/20/10 22:47:57	ALARM	 Memory full            
+~09-20	07/20/10 22:47:58	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 14 07/20/10 22:47:58 3E7.0000001D09 09 09 223
+~1C-33	07/20/10 22:47:58	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 21 07/20/10 22:47:58 3E7.0000001D1C 1C 1C 552
+~09-20	07/20/10 22:47:58	ALARM	MESSAGE: Test Tag Found.
+~09-20	07/20/10 22:47:58	ALARM	Reader info:             Version:    FS1001A 5.0
+~09-20	07/20/10 22:47:58	ALARM	 Active:             On  Unique:             Off
+~09-20	07/20/10 22:47:58	ALARM	 Reader ID#:         09  Master:             Off
+~09-20	07/20/10 22:47:58	ALARM	Communication (N,8,1)
+~1C-33	07/20/10 22:47:59	ALARM	MESSAGE: Test Tag Found.
+~1C-33	07/20/10 22:47:59	ALARM	Reader info:             Version:    FS1001A 5.0
+~09-20	07/20/10 22:47:59	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~1C-33	07/20/10 22:47:59	ALARM	 Active:             On  Unique:             Off
+~09-20	07/20/10 22:47:59	ALARM	Buffer:    Active    On  Tag Count:        10645
+~1C-33	07/20/10 22:47:59	ALARM	 Reader ID#:         1C  Master:             Off
+~09-20	07/20/10 22:47:59	ALARM	Local:                   COM1 tag codes:     Off
+~1C-33	07/20/10 22:47:59	ALARM	Communication (N,8,1)
+~09-20	07/20/10 22:47:59	ALARM	Diagnostics for 09:
+~1C-33	07/20/10 22:47:59	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~09-20	07/20/10 22:47:59	ALARM	 Temperature:       36C  Exciter power:    14.7V
+~1C-33	07/20/10 22:47:59	ALARM	Buffer:    Active    On  Tag Count:        10642
+~09-20	07/20/10 22:47:59	ALARM	 Exciter current:  3.7A  Signal level:        3%
+~1C-33	07/20/10 22:47:59	ALARM	Local:                   COM1 tag codes:     Off
+~09-20	07/20/10 22:47:59	ALARM	 Exciter phase:      1%  Sync input:          NO
+~1C-33	07/20/10 22:47:59	ALARM	Diagnostics for 1C:
+~09-20	07/20/10 22:47:59	ALARM	 Battery:            OK  Status:           Slave
+~1C-33	07/20/10 22:47:59	ALARM	 Temperature:       38C  Exciter power:    13.5V
+~09-20	07/20/10 22:47:59	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1C-33	07/20/10 22:47:59	ALARM	 Exciter current:  4.4A  Signal level:        5%
+~09-20	07/20/10 22:47:59	ALARM	 Current gain:     115%  Current alarm:   2500mA
+~1C-33	07/20/10 22:48:00	ALARM	 Exciter phase:      1%  Sync input:          NO
+~09-20	07/20/10 22:48:00	ALARM	Bit counters
+~1C-33	07/20/10 22:48:00	ALARM	 Battery:            OK  Status:           Slave
+~09-20	07/20/10 22:48:00	ALARM	 Preambles:       22947  Bad CRC:          12341
+~1C-33	07/20/10 22:48:00	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~09-20	07/20/10 22:48:00	ALARM	 Good reads:      27862  Overruns:             0
+~1C-33	07/20/10 22:48:00	ALARM	 Current gain:     117%  Current alarm:   4100mA
+~09-20	07/20/10 22:48:00	ALARM	Alarms for 09:
+~1C-33	07/20/10 22:48:00	ALARM	Bit counters
+~09-20	07/20/10 22:48:00	ALARM	 Memory full            
+~1C-33	07/20/10 22:48:00	ALARM	 Preambles:       15714  Bad CRC:           1995
+~1C-33	07/20/10 22:48:00	ALARM	 Good reads:      48009  Overruns:             0
+~1C-33	07/20/10 22:48:00	ALARM	Alarms for 1C:
+~1C-33	07/20/10 22:48:00	ALARM	 Memory full            
+~0C-29	07/20/10 22:48:08	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1D 07/20/10 22:48:08 3E7.0000001D0C 0C 0C 499
+~0C-29	07/20/10 22:48:08	ALARM	MESSAGE: Test Tag Found.
+~19-24	07/20/10 22:48:29	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 18 07/20/10 22:48:29 3E7.0000001D19 19 19 541
+~19-24	07/20/10 22:48:30	ALARM	MESSAGE: Test Tag Found.
+~19-24	07/20/10 22:48:30	ALARM	Reader info:             Version:    FS1001A 5.0
+~19-24	07/20/10 22:48:30	ALARM	 Active:             On  Unique:             Off
+~19-24	07/20/10 22:48:30	ALARM	 Reader ID#:         19  Master:             Off
+~19-24	07/20/10 22:48:30	ALARM	Communication (N,8,1)
+~19-24	07/20/10 22:48:30	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~19-24	07/20/10 22:48:30	ALARM	Buffer:    Active    On  Tag Count:        10640
+~19-24	07/20/10 22:48:30	ALARM	Local:                   COM1 tag codes:     Off
+~19-24	07/20/10 22:48:30	ALARM	Diagnostics for 19:
+~19-24	07/20/10 22:48:30	ALARM	 Temperature:       34C  Exciter power:    14.7V
+~19-24	07/20/10 22:48:30	ALARM	 Exciter current:  2.4A  Signal level:        2%
+~19-24	07/20/10 22:48:30	ALARM	 Exciter phase:      2%  Sync input:          NO
+~19-24	07/20/10 22:48:31	ALARM	 Battery:            OK  Status:           Slave
+~19-24	07/20/10 22:48:31	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~19-24	07/20/10 22:48:31	ALARM	 Current gain:     128%  Current alarm:   2200mA
+~19-24	07/20/10 22:48:31	ALARM	Bit counters
+~19-24	07/20/10 22:48:31	ALARM	 Preambles:        5123  Bad CRC:             53
+~19-24	07/20/10 22:48:31	ALARM	 Good reads:       4045  Overruns:             0
+~19-24	07/20/10 22:48:31	ALARM	Alarms for 19:
+~19-24	07/20/10 22:48:31	ALARM	 Memory full            
+~1D-42	07/20/10 22:48:51	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2A 07/20/10 22:48:51 3E7.0000001D1D 1D 1D 794
+~1D-42	07/20/10 22:48:52	ALARM	MESSAGE: Test Tag Found.
+~24-35	07/20/10 22:49:46	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 23 07/20/10 22:49:46 3E7.0000001D24 24 24 213
+~24-35	07/20/10 22:49:46	ALARM	MESSAGE: Test Tag Found.
+~01-4	07/20/10 22:50:41	ALARM	Reader info:             Version:    FS1001A 5.0
+~01-4	07/20/10 22:50:41	ALARM	 Active:             On  Unique:              On
+~01-4	07/20/10 22:50:41	ALARM	 Reader ID#:         01  Master:             Off
+~01-4	07/20/10 22:50:41	ALARM	Communication (N,8,1)
+~01-4	07/20/10 22:50:41	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~01-4	07/20/10 22:50:42	ALARM	Buffer:    Active    On  Tag Count:         8278
+~01-4	07/20/10 22:50:42	ALARM	Local:                   COM1 tag codes:     Off
+~01-4	07/20/10 22:50:42	ALARM	Diagnostics for 01:
+~01-4	07/20/10 22:50:42	ALARM	 Temperature:       34C  Exciter power:    13.3V
+~01-4	07/20/10 22:50:42	ALARM	 Exciter current:  6.8A  Signal level:        2%
+~01-4	07/20/10 22:50:42	ALARM	 Exciter phase:     52%  Sync input:          NO
+~01-4	07/20/10 22:50:42	ALARM	 Battery:            OK  Status:           Slave
+~01-4	07/20/10 22:50:42	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~01-4	07/20/10 22:50:42	ALARM	 Current gain:     136%  Current alarm:   6000mA
+~01-4	07/20/10 22:50:42	ALARM	Bit counters
+~01-4	07/20/10 22:50:43	ALARM	 Preambles:       27158  Bad CRC:          15910
+~01-4	07/20/10 22:50:43	ALARM	 Good reads:      16166  Overruns:             0
+~01-4	07/20/10 22:50:43	ALARM	Alarms for 01:
+~01-4	07/20/10 22:50:43	ALARM	 None
+~02-5	07/20/10 22:52:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 22:52:24	ALARM	Average:      0 %
+~02-5	07/20/10 22:52:24	ALARM	Peak:        22 %
+~02-5	07/20/10 22:52:24	ALARM	FDXB Peak:   22 %
+~04-7	07/20/10 22:55:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 07 07/20/10 22:55:55 3E7.0000001D04 04 04 583
+~04-7	07/20/10 22:55:56	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 22:57:08	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 22:57:08	ALARM	Average:      0 %
+~03-6	07/20/10 22:57:08	ALARM	Peak:        45 %
+~03-6	07/20/10 22:57:08	ALARM	FDXB Peak:   45 %
+~07/20/10 23:00:09
+~02-5	07/20/10 23:02:24	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 23:02:24	ALARM	Average:      0 %
+~02-5	07/20/10 23:02:24	ALARM	Peak:         9 %
+~02-5	07/20/10 23:02:24	ALARM	FDXB Peak:   24 %
+~03-6	07/20/10 23:07:08	ALARM	Reader info:             Version:    FS1001A 5.0
+~03-6	07/20/10 23:07:08	ALARM	 Active:             On  Unique:             Off
+~03-6	07/20/10 23:07:08	ALARM	 Reader ID#:         03  Master:             Off
+~03-6	07/20/10 23:07:08	ALARM	Communication (N,8,1)
+~03-6	07/20/10 23:07:08	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~03-6	07/20/10 23:07:08	ALARM	Buffer:    Active    On  Tag Count:        10639
+~03-6	07/20/10 23:07:08	ALARM	Local:                   COM1 tag codes:     Off
+~03-6	07/20/10 23:07:08	ALARM	Diagnostics for 03:
+~03-6	07/20/10 23:07:08	ALARM	 Temperature:       30C  Exciter power:    11.9V
+~03-6	07/20/10 23:07:08	ALARM	 Exciter current:  6.6A  Signal level:        0%
+~03-6	07/20/10 23:07:09	ALARM	 Exciter phase:     52%  Sync input:          NO
+~03-6	07/20/10 23:07:09	ALARM	 Battery:            OK  Status:           Slave
+~03-6	07/20/10 23:07:09	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~03-6	07/20/10 23:07:09	ALARM	 Current gain:     147%  Current alarm:   6300mA
+~03-6	07/20/10 23:07:09	ALARM	Bit counters
+~03-6	07/20/10 23:07:09	ALARM	 Preambles:       38955  Bad CRC:           5276
+~03-6	07/20/10 23:07:09	ALARM	 Good reads:      12276  Overruns:             0
+~03-6	07/20/10 23:07:09	ALARM	Alarms for 03:
+~03-6	07/20/10 23:07:09	ALARM	 Memory full            
+~03-6	07/20/10 23:07:10	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 23:07:10	ALARM	Average:      0 %
+~03-6	07/20/10 23:07:10	ALARM	Peak:        35 %
+~03-6	07/20/10 23:07:10	ALARM	FDXB Peak:   36 %
+~02-5	07/20/10 23:12:24	ALARM	Reader info:             Version:    FS1001A 5.0
+~02-5	07/20/10 23:12:24	ALARM	 Active:             On  Unique:             Off
+~02-5	07/20/10 23:12:24	ALARM	 Reader ID#:         02  Master:             Off
+~02-5	07/20/10 23:12:24	ALARM	Communication (N,8,1)
+~02-5	07/20/10 23:12:24	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~02-5	07/20/10 23:12:24	ALARM	Buffer:    Active    On  Tag Count:        10624
+~02-5	07/20/10 23:12:24	ALARM	Local:                   COM1 tag codes:     Off
+~02-5	07/20/10 23:12:24	ALARM	Diagnostics for 02:
+~02-5	07/20/10 23:12:24	ALARM	 Temperature:       28C  Exciter power:    11.7V
+~02-5	07/20/10 23:12:24	ALARM	 Exciter current:  6.2A  Signal level:        1%
+~02-5	07/20/10 23:12:25	ALARM	 Exciter phase:     52%  Sync input:          NO
+~02-5	07/20/10 23:12:25	ALARM	 Battery:            OK  Status:           Slave
+~02-5	07/20/10 23:12:25	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~02-5	07/20/10 23:12:25	ALARM	 Current gain:     150%  Current alarm:   5600mA
+~02-5	07/20/10 23:12:25	ALARM	Bit counters
+~02-5	07/20/10 23:12:25	ALARM	 Preambles:       21177  Bad CRC:           5844
+~02-5	07/20/10 23:12:25	ALARM	 Good reads:       6895  Overruns:             0
+~02-5	07/20/10 23:12:25	ALARM	Alarms for 02:
+~02-5	07/20/10 23:12:25	ALARM	 Memory full            
+~02-5	07/20/10 23:12:26	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 23:12:26	ALARM	Average:      0 %
+~02-5	07/20/10 23:12:26	ALARM	Peak:        10 %
+~02-5	07/20/10 23:12:26	ALARM	FDXB Peak:   10 %
+~18-49	07/20/10 23:14:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 31 07/20/10 23:14:56 3E7.0000001D18 18 18 612
+~18-49	07/20/10 23:14:57	ALARM	MESSAGE: Test Tag Found.
+~07/20/10 23:15:09
+~04-7	07/20/10 23:15:29	ALARM	Noise report for Reader ID#04
+~04-7	07/20/10 23:15:29	ALARM	Average:      0 %
+~04-7	07/20/10 23:15:30	ALARM	Peak:        41 %
+~04-7	07/20/10 23:15:30	ALARM	FDXB Peak:   41 %
+~03-6	07/20/10 23:17:09	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 23:17:09	ALARM	Average:      0 %
+~03-6	07/20/10 23:17:09	ALARM	Peak:        13 %
+~03-6	07/20/10 23:17:09	ALARM	FDXB Peak:   13 %
+~13-30	07/20/10 23:20:40	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1E 07/20/10 23:20:40 3E7.0000001D13 13 13 083
+~13-30	07/20/10 23:20:40	ALARM	MESSAGE: Test Tag Found.
+~12-23	07/20/10 23:21:17	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 17 07/20/10 23:21:17 3E7.0000001D12 12 12 652
+~12-23	07/20/10 23:21:18	ALARM	MESSAGE: Test Tag Found.
+~11-22	07/20/10 23:21:54	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 16 07/20/10 23:21:54 3E7.0000001D11 11 11 906
+~11-22	07/20/10 23:21:55	ALARM	MESSAGE: Test Tag Found.
+~10-47	07/20/10 23:21:57	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2F 07/20/10 23:21:57 3E7.0000001D10 10 10 776
+~10-47	07/20/10 23:21:58	ALARM	MESSAGE: Test Tag Found.
+~0F-46	07/20/10 23:22:03	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2E 07/20/10 23:22:03 3E7.0000001D0F 0F 0F 404
+~0F-46	07/20/10 23:22:03	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 23:22:25	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 23:22:25	ALARM	Average:      0 %
+~02-5	07/20/10 23:22:25	ALARM	Peak:         3 %
+~02-5	07/20/10 23:22:25	ALARM	FDXB Peak:    6 %
+~14-31	07/20/10 23:25:30	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1F 07/20/10 23:25:30 3E7.0000001D14 14 14 227
+~14-31	07/20/10 23:25:30	ALARM	MESSAGE: Test Tag Found.
+~0E-39	07/20/10 23:26:48	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 27 07/20/10 23:26:48 3E7.0000001D0E 0E 0E 124
+~0E-39	07/20/10 23:26:48	ALARM	MESSAGE: Test Tag Found.
+~0E-39	07/20/10 23:26:48	ALARM	Reader info:             Version:    FS1001A 5.0
+~0E-39	07/20/10 23:26:48	ALARM	 Active:             On  Unique:             Off
+~0E-39	07/20/10 23:26:48	ALARM	 Reader ID#:         0E  Master:             Off
+~0E-39	07/20/10 23:26:48	ALARM	Communication (N,8,1)
+~0E-39	07/20/10 23:26:48	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~0E-39	07/20/10 23:26:49	ALARM	Buffer:    Active    On  Tag Count:        10649
+~0E-39	07/20/10 23:26:49	ALARM	Local:                   COM1 tag codes:     Off
+~0E-39	07/20/10 23:26:49	ALARM	Diagnostics for 0E:
+~0E-39	07/20/10 23:26:49	ALARM	 Temperature:       34C  Exciter power:    16.9V
+~0E-39	07/20/10 23:26:49	ALARM	 Exciter current:  2.0A  Signal level:        3%
+~0E-39	07/20/10 23:26:49	ALARM	 Exciter phase:      2%  Sync input:          NO
+~0E-39	07/20/10 23:26:49	ALARM	 Battery:            OK  Status:           Slave
+~0E-39	07/20/10 23:26:49	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~0E-39	07/20/10 23:26:49	ALARM	 Current gain:     100%  Current alarm:   1600mA
+~0E-39	07/20/10 23:26:49	ALARM	Bit counters
+~0E-39	07/20/10 23:26:50	ALARM	 Preambles:       10851  Bad CRC:            561
+~0E-39	07/20/10 23:26:50	ALARM	 Good reads:       8537  Overruns:             0
+~0E-39	07/20/10 23:26:50	ALARM	Alarms for 0E:
+~0E-39	07/20/10 23:26:50	ALARM	 Memory full            
+~03-6	07/20/10 23:27:09	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 23:27:09	ALARM	Average:      0 %
+~03-6	07/20/10 23:27:09	ALARM	Peak:        20 %
+~03-6	07/20/10 23:27:09	ALARM	FDXB Peak:   21 %
+~07/20/10 23:30:09
+~22-27	07/20/10 23:31:31	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1B 07/20/10 23:31:31 3E7.0000001D22 22 22 513
+~22-27	07/20/10 23:31:31	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 23:32:25	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 23:32:25	ALARM	Average:      0 %
+~02-5	07/20/10 23:32:25	ALARM	Peak:        12 %
+~02-5	07/20/10 23:32:25	ALARM	FDXB Peak:   30 %
+~1E-43	07/20/10 23:32:34	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2B 07/20/10 23:32:34 3E7.0000001D1E 1E 1E 101
+~1E-43	07/20/10 23:32:34	ALARM	MESSAGE: Test Tag Found.
+~19-24	07/20/10 23:34:24	ALARM	PROBLEM: Excessive noise level
+~01-4	07/20/10 23:35:13	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 04 07/20/10 23:35:13 3E7.0000001D01 01 01 519
+~01-4	07/20/10 23:35:13	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 23:37:09	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 23:37:09	ALARM	Average:      0 %
+~03-6	07/20/10 23:37:09	ALARM	Peak:        17 %
+~03-6	07/20/10 23:37:09	ALARM	FDXB Peak:   17 %
+~20-51	07/20/10 23:40:29	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 33 07/20/10 23:40:29 3E7.0000001D20 20 20 508
+~20-51	07/20/10 23:40:29	ALARM	MESSAGE: Test Tag Found.
+~1F-50	07/20/10 23:41:06	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 32 07/20/10 23:41:07 3E7.0000001D1F 1F 1F 028
+~1F-50	07/20/10 23:41:07	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 23:42:25	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 23:42:25	ALARM	Average:      0 %
+~02-5	07/20/10 23:42:25	ALARM	Peak:        28 %
+~02-5	07/20/10 23:42:25	ALARM	FDXB Peak:   28 %
+~02-5	07/20/10 23:42:52	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 05 07/20/10 23:42:52 3E7.0000001D02 02 02 952
+~02-5	07/20/10 23:42:53	ALARM	MESSAGE: Test Tag Found.
+~07/20/10 23:45:09
+~04-7	07/20/10 23:45:29	ALARM	Noise report for Reader ID#04
+~04-7	07/20/10 23:45:29	ALARM	Average:      0 %
+~04-7	07/20/10 23:45:29	ALARM	Peak:        31 %
+~04-7	07/20/10 23:45:30	ALARM	FDXB Peak:   33 %
+~1A-25	07/20/10 23:46:25	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 19 07/20/10 23:46:25 3E7.0000001D1A 1A 1A 951
+~1A-25	07/20/10 23:46:26	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 23:46:31	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 06 07/20/10 23:46:31 3E7.0000001D03 03 03 942
+~03-6	07/20/10 23:46:32	ALARM	MESSAGE: Test Tag Found.
+~06-37	07/20/10 23:46:41	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 25 07/20/10 23:46:41 3E7.0000001D06 06 06 840
+~06-37	07/20/10 23:46:42	ALARM	MESSAGE: Test Tag Found.
+~05-36	07/20/10 23:46:57	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 24 07/20/10 23:46:57 3E7.0000001D05 05 05 121
+~05-36	07/20/10 23:46:57	ALARM	MESSAGE: Test Tag Found.
+~0D-38	07/20/10 23:47:01	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 26 07/20/10 23:47:01 3E7.0000001D0D 0D 0D 643
+~0D-38	07/20/10 23:47:02	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 23:47:09	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 23:47:09	ALARM	Average:      0 %
+~03-6	07/20/10 23:47:09	ALARM	Peak:        12 %
+~03-6	07/20/10 23:47:09	ALARM	FDXB Peak:   12 %
+~16-41	07/20/10 23:47:10	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 29 07/20/10 23:47:10 3E7.0000001D16 16 16 379
+~16-41	07/20/10 23:47:10	ALARM	MESSAGE: Test Tag Found.
+~0A-21	07/20/10 23:47:24	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 15 07/20/10 23:47:24 3E7.0000001D0A 0A 0A 890
+~0A-21	07/20/10 23:47:25	ALARM	MESSAGE: Test Tag Found.
+~08-45	07/20/10 23:47:37	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2D 07/20/10 23:47:37 3E7.0000001D08 08 08 784
+~08-45	07/20/10 23:47:38	ALARM	MESSAGE: Test Tag Found.
+~23-34	07/20/10 23:47:44	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 22 07/20/10 23:47:44 3E7.0000001D23 23 23 140
+~23-34	07/20/10 23:47:44	ALARM	MESSAGE: Test Tag Found.
+~21-26	07/20/10 23:47:46	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1A 07/20/10 23:47:46 3E7.0000001D21 21 21 849
+~21-26	07/20/10 23:47:47	ALARM	MESSAGE: Test Tag Found.
+~15-40	07/20/10 23:47:49	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 28 07/20/10 23:47:49 3E7.0000001D15 15 15 803
+~15-40	07/20/10 23:47:50	ALARM	MESSAGE: Test Tag Found.
+~1B-32	07/20/10 23:47:50	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 20 07/20/10 23:47:50 3E7.0000001D1B 1B 1B 622
+~1B-32	07/20/10 23:47:51	ALARM	MESSAGE: Test Tag Found.
+~17-48	07/20/10 23:47:53	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 30 07/20/10 23:47:53 3E7.0000001D17 17 17 926
+~17-48	07/20/10 23:47:54	ALARM	MESSAGE: Test Tag Found.
+~0B-28	07/20/10 23:47:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1C 07/20/10 23:47:55 3E7.0000001D0B 0B 0B 788
+~07-44	07/20/10 23:47:56	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2C 07/20/10 23:47:56 3E7.0000001D07 07 07 194
+~0B-28	07/20/10 23:47:56	ALARM	MESSAGE: Test Tag Found.
+~07-44	07/20/10 23:47:56	ALARM	MESSAGE: Test Tag Found.
+~09-20	07/20/10 23:47:59	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 14 07/20/10 23:47:59 3E7.0000001D09 09 09 071
+~1C-33	07/20/10 23:47:59	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 21 07/20/10 23:47:59 3E7.0000001D1C 1C 1C 414
+~09-20	07/20/10 23:47:59	ALARM	MESSAGE: Test Tag Found.
+~1C-33	07/20/10 23:47:59	ALARM	MESSAGE: Test Tag Found.
+~0C-29	07/20/10 23:48:08	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 1D 07/20/10 23:48:08 3E7.0000001D0C 0C 0C 353
+~0C-29	07/20/10 23:48:08	ALARM	MESSAGE: Test Tag Found.
+~0C-29	07/20/10 23:48:08	ALARM	Reader info:             Version:    FS1001A 5.0
+~0C-29	07/20/10 23:48:08	ALARM	 Active:             On  Unique:             Off
+~0C-29	07/20/10 23:48:09	ALARM	 Reader ID#:         0C  Master:             Off
+~0C-29	07/20/10 23:48:09	ALARM	Communication (N,8,1)
+~0C-29	07/20/10 23:48:09	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~0C-29	07/20/10 23:48:09	ALARM	Buffer:    Active    On  Tag Count:        10609
+~0C-29	07/20/10 23:48:09	ALARM	Local:                   COM1 tag codes:     Off
+~0C-29	07/20/10 23:48:09	ALARM	Diagnostics for 0C:
+~0C-29	07/20/10 23:48:09	ALARM	 Temperature:       34C  Exciter power:    15.5V
+~0C-29	07/20/10 23:48:09	ALARM	 Exciter current:  3.1A  Signal level:        6%
+~0C-29	07/20/10 23:48:09	ALARM	 Exciter phase:      1%  Sync input:          NO
+~0C-29	07/20/10 23:48:09	ALARM	 Battery:            OK  Status:           Slave
+~0C-29	07/20/10 23:48:10	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~0C-29	07/20/10 23:48:10	ALARM	 Current gain:     114%  Current alarm:   2700mA
+~0C-29	07/20/10 23:48:10	ALARM	Bit counters
+~0C-29	07/20/10 23:48:10	ALARM	 Preambles:       37784  Bad CRC:            335
+~0C-29	07/20/10 23:48:10	ALARM	 Good reads:      13680  Overruns:             0
+~0C-29	07/20/10 23:48:10	ALARM	Alarms for 0C:
+~0C-29	07/20/10 23:48:10	ALARM	 Memory full            
+~19-24	07/20/10 23:48:30	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 18 07/20/10 23:48:30 3E7.0000001D19 19 19 376
+~19-24	07/20/10 23:48:30	ALARM	MESSAGE: Test Tag Found.
+~1D-42	07/20/10 23:48:51	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 2A 07/20/10 23:48:51 3E7.0000001D1D 1D 1D 621
+~1D-42	07/20/10 23:48:52	ALARM	MESSAGE: Test Tag Found.
+~1D-42	07/20/10 23:48:52	ALARM	Reader info:             Version:    FS1001A 5.0
+~1D-42	07/20/10 23:48:52	ALARM	 Active:             On  Unique:             Off
+~1D-42	07/20/10 23:48:52	ALARM	 Reader ID#:         1D  Master:             Off
+~1D-42	07/20/10 23:48:52	ALARM	Communication (N,8,1)
+~1D-42	07/20/10 23:48:52	ALARM	 COM1 baud rate:   9600  COM2 baud rate:  115200
+~1D-42	07/20/10 23:48:52	ALARM	Buffer:    Active    On  Tag Count:        10610
+~1D-42	07/20/10 23:48:52	ALARM	Local:                   COM1 tag codes:     Off
+~1D-42	07/20/10 23:48:52	ALARM	Diagnostics for 1D:
+~1D-42	07/20/10 23:48:52	ALARM	 Temperature:       36C  Exciter power:    15.1V
+~1D-42	07/20/10 23:48:52	ALARM	 Exciter current:  3.9A  Signal level:        1%
+~1D-42	07/20/10 23:48:53	ALARM	 Exciter phase:      1%  Sync input:          NO
+~1D-42	07/20/10 23:48:53	ALARM	 Battery:            OK  Status:           Slave
+~1D-42	07/20/10 23:48:53	ALARM	 TestTag delay:  60 min  Report delay:   180 min
+~1D-42	07/20/10 23:48:53	ALARM	 Current gain:     119%  Current alarm:   3400mA
+~1D-42	07/20/10 23:48:53	ALARM	Bit counters
+~1D-42	07/20/10 23:48:53	ALARM	 Preambles:         101  Bad CRC:              4
+~1D-42	07/20/10 23:48:53	ALARM	 Good reads:         98  Overruns:             0
+~1D-42	07/20/10 23:48:53	ALARM	Alarms for 1D:
+~1D-42	07/20/10 23:48:53	ALARM	 Memory full            
+~24-35	07/20/10 23:49:46	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 23 07/20/10 23:49:46 3E7.0000001D24 24 24 067
+~24-35	07/20/10 23:49:46	ALARM	MESSAGE: Test Tag Found.
+~02-5	07/20/10 23:52:25	ALARM	Noise report for Reader ID#02
+~02-5	07/20/10 23:52:25	ALARM	Average:      0 %
+~02-5	07/20/10 23:52:25	ALARM	Peak:        11 %
+~02-5	07/20/10 23:52:25	ALARM	FDXB Peak:   11 %
+~04-7	07/20/10 23:55:55	ALARM	MESSAGE: Single-shot test with Test Tag.
+| 07 07/20/10 23:55:55 3E7.0000001D04 04 04 382
+~04-7	07/20/10 23:55:55	ALARM	MESSAGE: Test Tag Found.
+~03-6	07/20/10 23:57:09	ALARM	Noise report for Reader ID#03
+~03-6	07/20/10 23:57:09	ALARM	Average:      0 %
+~03-6	07/20/10 23:57:09	ALARM	Peak:        12 %
+~03-6	07/20/10 23:57:09	ALARM	FDXB Peak:   44 %
+~07/21/10 00:00:09
+
+    FILE CLOSED                    : 21 JULY 2010 AT 00:00
