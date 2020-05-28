@@ -99,10 +99,10 @@ for c in clutch:
     df = pd.merge(df, fish, how='outer')
 df = df.drop_duplicates()
 # add pd.reset_index to resetn the index or make the date a datetime object and then the axis -  more funcionality then
+#print(df)
+
+
+df = df.drop_duplicates(subset=['ID']) # keep only the fist instance of a Tag ID
+df['datetime'] = pd.to_datetime(df['date']+df['time'], format='%m/%d/%y%H:%M:%S') # create a datetime object
+df = df.set_index('datetime').drop(['time', 'date'], axis=1) # make the new datetime object an index and drop the old 'date' and 'time' columns
 print(df)
-
-
-run = run.drop_duplicates(subset=['ID']) # keep only the fist instance of a Tag ID
-run['datetime'] = pd.to_datetime(run['date']+run['time'], format='%m/%d/%y%H:%M:%S') # create a datetime object
-run = run.set_index('datetime').drop(['time', 'date'], axis=1) # make the new datetime object an index and drop the old 'date' and 'time' columns
-print(run)
