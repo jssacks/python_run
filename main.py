@@ -9,6 +9,13 @@ Team Members: Jade Sauvé
 
 Main body of the project
 
+
+TO DO
+
+add the module that will create a folder for the data/figures
+add some input from user
+make all paths relative
+
 """
 
 # Modules
@@ -50,12 +57,12 @@ print('Creating ' + out_dir + ', if needed')
 make_dir(out_dir)
 
 print(out_dir)
-#directory_in = ''  
+#directory_in = ''
 
 
 #save = True  # True or False, to save
 #directory_out = ''
-#file_out = ''  
+#file_out = ''
 #directory to save the data files
 #out_dir = ''
 ##############################################################
@@ -71,7 +78,7 @@ ftp://ftp.ptagis.org/RawDataFiles/Interrogation/Loaded/158/2011/
 def retrieve_data(year = '2005', day_of_year = '101', extension = '.A1'):
     try:
         folder = 'BO1/' # name of the folder in which contains the file you want (also the name of the damn)
-        year = year + '/' 
+        year = year + '/'
         path = 'RawDataFiles/Interrogation/Loaded/' + folder + year #latter part of the url (path to file in the website)
         filename = folder[0:-1] + year[2:-1] + day_of_year + extension #'15811333.INT' #name of the file we want to download
         # first three digits are name of the folder, next 2 indicated the year
@@ -79,12 +86,12 @@ def retrieve_data(year = '2005', day_of_year = '101', extension = '.A1'):
         ftp = ftplib.FTP("ftp.ptagis.org") #server IP of the website we want to download from
         ftp.login() #we do not need username and password for this data
         ftp.cwd(path) #change currect working path on the website to the location where the file is
-        ftp.retrbinary("RETR " + filename ,open(out_dir+filename, 'wb').write) 
+        ftp.retrbinary("RETR " + filename ,open(out_dir+filename, 'wb').write)
         ftp.quit()
         return(filename)
 
-        print(' Retrieved ' + filename)   
-        
+        print(' Retrieved ' + filename)
+
     except:
         print(' -- Failed to retrieve' + filename)
         pass
@@ -99,7 +106,7 @@ for i in year:
 		for k in extension:
 			filename = retrieve_data(str(i), '{0:03}'.format(j), k)
 			print(filename)
-			#it seems like BO1 does not have the data that we want, but you can just change 'folder' depending on what station we choose 
+			#it seems like BO1 does not have the data that we want, but you can just change 'folder' depending on what station we choose
 
 			#df = pd.read_csv(out_dir+filename,delim_whitespace=True, skiprows=4, skipfooter = 3, engine = 'python')#last argument might not be required
 clutch = []
@@ -108,8 +115,3 @@ clutch = []
             for k in extension:
                 filename = retrieve_data(str(i), '{0:03}'.format(j), k)
                 clutch.append(filename)
-
-
-
-
-
