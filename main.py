@@ -82,6 +82,7 @@ df=pd.DataFrame(columns = {"date", "time", "ID"})
 a = b = 0
 # for all files downloaded
 for c in clutch:
+    print(c)
     fish = pyrun_parse(out_path+c)
     # only merge if there is data to merge
     if fish is not None:
