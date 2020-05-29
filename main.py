@@ -155,25 +155,3 @@ else:
 
     https://stackoverflow.com/questions/51250554/pandas-bin-and-sum
     """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-df = df.drop_duplicates(subset=['ID']) # keep only the fist instance of a Tag ID
-df['datetime'] = pd.to_datetime(df['date']+df['time'], format='%m/%d/%y%H:%M:%S') # create a datetime object
-df = df.set_index('datetime').drop(['time', 'date'], axis=1) # make the new datetime object an index and drop the old 'date' and 'time' columns
-print(df)
