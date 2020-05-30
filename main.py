@@ -16,7 +16,7 @@ add the module that will create a folder for the data/figures  x
 add some input from user  x
 make all paths relative  x
 add the folder/station as an option in the function  x
-prep the data for the first year for comparison with chosen year
+prep the data for the first year for comparison with chosen year x
 get one year of data  x
 datetime object  x
 
