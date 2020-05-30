@@ -27,7 +27,7 @@ import ftplib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-#import datetime
+import datetime
 
 import os
 import sys
@@ -40,18 +40,18 @@ from modules import *
 ######################## Parameters ########################
 
 # File extensions for the years 2005 to 2012
-extension = ['.A1','.B1','.C1','.D1','.E1','.F1','.G1','.H1'] 
+extension = ['.A1','.B1','.C1','.D1','.E1','.F1','.G1','.H1']
 
 
 ##############################################################
 
-# User input 
-year, day_of_year = user_input()
+# User input
+year, day_of_year, range_choice = user_input()
 
 ## make sure the output directory exists
 this_path = os.path.abspath('.')
 this_dir = this_path.split('/')[-1]
-this_parent = os.path.abspath('../.')  
+this_parent = os.path.abspath('../.')
 # directory name
 out_dir = this_dir + '_output/'
 # directory name
@@ -61,7 +61,7 @@ print('Creating ' + out_dir +' and deleting the old one')
 make_dir(out_path, clean=True)
 
 
-# This section of code uses the 'retrieve_data' function to interact with the website 
+# This section of code uses the 'retrieve_data' function to interact with the website
 # and put the files into the output directory
 # clutch is a list of the filenames from the downloaded files
 clutch = []
@@ -71,7 +71,7 @@ for i in year:
             filename = retrieve_data(str(i), '{0:03}'.format(j), k, out_path)
             if filename is not None:
                 clutch.append(filename)
-                
+
 
 
 # This sections of code uses the 'pyrun_parse' function to convert the ASCII files to a df
@@ -82,7 +82,7 @@ df=pd.DataFrame(columns = {"date", "time", "ID"})
 a = b = 0
 # for all files downloaded
 for c in clutch:
-    print(c)
+    #print(c)
     fish = pyrun_parse(out_path+c)
     # only merge if there is data to merge
     if fish is not None:
@@ -109,7 +109,7 @@ if df.empty:
 # if the df is not empty, move on
 else:
     # remove duplicate entries
-    df = df.drop_duplicates()
+    df = df.drop_duplicates(subset=['ID'])
 
     # make a column of date time objects
     date_col = pd.to_datetime(df['date']+'/'+df['time'], format='%m/%d/%y/%H:%M:%S')
@@ -119,14 +119,14 @@ else:
     df = pd.concat([df, date_col],axis=1)
     # set this column as the index
     df = df.set_index('datetime_obj')
-    
+
     # removes the date and time columns
     df.drop(['date','time'],axis=1,inplace=True)
 
     """
     to obtain the year of a datetime_obj do .what_you_want (.year, .day)
     as an example:
-        df.index[0].day 
+        df.index[0].day
 
     for binning consider pd.cut() used with grouby()
 
@@ -134,18 +134,7 @@ else:
     """
 
 
+    print(f'\n{len(df)} unique fish were recorded during your selected time frame. Cool!')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    date = [year[0], np.nan if len(day_of_year)>1 else day_of_year[0]] 
+    specify_plot_range(range_choice, df, date)
