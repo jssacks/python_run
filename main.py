@@ -134,7 +134,7 @@ else:
     """
 
 
-print(f'\n{len(df)} unique fish were recorded during your selected time frame. Cool!')
+    print(f'\n{len(df)} unique fish were recorded during your selected time frame. Cool!')
 
-
-specify_plot_range(range_choice, df, year[0])
+    date = [year[0], np.nan if len(day_of_year)>1 else day_of_year[0]] 
+    specify_plot_range(range_choice, df, date)
