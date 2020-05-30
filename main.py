@@ -46,7 +46,7 @@ extension = ['.A1','.B1','.C1','.D1','.E1','.F1','.G1','.H1']
 ##############################################################
 
 # User input
-year, day_of_year = user_input()
+year, day_of_year, range_choice = user_input()
 
 ## make sure the output directory exists
 this_path = os.path.abspath('.')
@@ -82,7 +82,7 @@ df=pd.DataFrame(columns = {"date", "time", "ID"})
 a = b = 0
 # for all files downloaded
 for c in clutch:
-    print(c)
+    #print(c)
     fish = pyrun_parse(out_path+c)
     # only merge if there is data to merge
     if fish is not None:
@@ -109,7 +109,7 @@ if df.empty:
 # if the df is not empty, move on
 else:
     # remove duplicate entries
-    df = df.drop_duplicates()
+    df = df.drop_duplicates(subset=['ID'])
 
     # make a column of date time objects
     date_col = pd.to_datetime(df['date']+'/'+df['time'], format='%m/%d/%y/%H:%M:%S')
@@ -132,3 +132,9 @@ else:
 
     https://stackoverflow.com/questions/51250554/pandas-bin-and-sum
     """
+
+
+print(f'\n{len(df)} unique fish were recorded during your selected time frame. Cool!')
+
+
+specify_plot_range(range_choice, df, year[0])
