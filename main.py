@@ -8,16 +8,14 @@ Team Members: Jade Sauvé
               Irita Aylward
 
 Main body of the project
-
+Run this file to execute python_run
 
 """
 
 # Modules
-#import ftplib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-#import datetime
 import os
 import sys
 pht = os.path.abspath('.')
@@ -41,9 +39,9 @@ year, day_of_year, range_choice = user_input()
 this_path = os.path.abspath('.')
 this_dir = this_path.split('/')[-1]
 this_parent = os.path.abspath('../.')
-# directory name
+# directory name for output
 out_dir = this_dir + '_output/'
-# directory name
+# directory path for output
 out_path = os.path.join(this_parent,out_dir)
 print('Creating ' + out_dir +' and deleting the old one')
 print()
@@ -52,7 +50,7 @@ make_dir(out_path, clean=True)
 
 
 # This section of code uses the 'retrieve_data' function to interact with the website
-# and put the files into the output directory
+# and puts the files into the output directory
 # clutch is a list of the filenames from the downloaded files
 clutch = []
 for i in year:
@@ -72,7 +70,6 @@ df=pd.DataFrame(columns = {"date", "time", "ID"})
 a = b = 0
 # for all files downloaded
 for c in clutch:
-    #print(c)
     fish = pyrun_parse(out_path+c)
     # only merge if there is data to merge
     if fish is not None:
@@ -95,7 +92,7 @@ if df.empty:
     decision = input('Y or N:  ')
     if decision is 'Y':
         # rerun this script from the beginning - doesnt always work sadly
-        os.execv('./main.py', sys.argv)
+        os.execv(this_path+'/main.py', sys.argv)
 
 # if the df is not empty, move on
 else:
