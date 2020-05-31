@@ -185,7 +185,7 @@ def specify_plot_range(range_choice, df, date):
     if range_choice in ['1','1.']: # if user retrieved 1 YEAR of data
         print('Would you like to plot the data by:\n\t1. Hour\n\t2. Day\n\t3. Month')
         print('(please enter 1, 2, or 3)') # user selects plotting by Hour, Day, or Month
-        plot_range_input = input('> ')
+        plot_range_input = input('  > ')
         while plot_range_input not in ['1','1.','2','2.','3','3.']:
             print("Your input is invalid.\nPlease enter please enter 1, 2, or 3)")
             plot_range_input = input('> ')

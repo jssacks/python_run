@@ -57,6 +57,7 @@ out_dir = this_dir + '_output/'
 # directory name
 out_path = os.path.join(this_parent,out_dir)
 print('Creating ' + out_dir +' and deleting the old one')
+print()
 # make the dir, remove the old one
 make_dir(out_path, clean=True)
 
@@ -91,6 +92,7 @@ for c in clutch:
     else:
         b=b+1
 #Print how many files had data or not
+print()
 print(str(a) +" salmon evaded all of the grizzlys and ran all the way up the stream")
 print(str(b) +" salmon got eaten by a hungry grizzly bear")
 
@@ -134,7 +136,7 @@ else:
     """
 
 
-    print(f'\n{len(df)} unique fish were recorded during your selected time frame. Cool!')
+    print(f'\n{len(df)} unique fish entries were recorded during your selected time frame. Cool!')
 
     date = [year[0], np.nan if len(day_of_year)>1 else day_of_year[0]] 
     specify_plot_range(range_choice, df, date)
