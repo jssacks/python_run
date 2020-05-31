@@ -1,13 +1,13 @@
 """
 
 PMEC final project
-Team: Python Run
+Team: Slamin' Salmons
 Team Members: Jade Sauvé
               Joshua Sacks
               Maria Kuruvilla
               Irita Aylward
 
-Contains the modules used in main_body.py
+Contains the modules used in main.py
 
 """
 
@@ -21,7 +21,6 @@ import shutil
 import ftplib
 import timeit
 import signal
-#import datetime
 
 
 def warningfct():

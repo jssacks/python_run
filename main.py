@@ -10,25 +10,14 @@ Team Members: Jade Sauvé
 Main body of the project
 
 
-TO DO
-
-add the module that will create a folder for the data/figures  x
-add some input from user  x
-make all paths relative  x
-add the folder/station as an option in the function  x
-prep the data for the first year for comparison with chosen year x
-get one year of data  x
-datetime object  x
-
 """
 
 # Modules
-import ftplib
+#import ftplib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import datetime
-
+#import datetime
 import os
 import sys
 pht = os.path.abspath('.')
@@ -125,18 +114,14 @@ else:
     # removes the date and time columns
     df.drop(['date','time'],axis=1,inplace=True)
 
-    """
-    to obtain the year of a datetime_obj do .what_you_want (.year, .day)
-    as an example:
-        df.index[0].day
-
-    for binning consider pd.cut() used with grouby()
-
-    https://stackoverflow.com/questions/51250554/pandas-bin-and-sum
-    """
-
-
+    # print the number of unique entries in the df
     print(f'\n{len(df)} unique fish entries were recorded during your selected time frame. Cool!')
 
+    # Plot
     date = [year[0], np.nan if len(day_of_year)>1 else day_of_year[0]] 
     specify_plot_range(range_choice, df, date)
+
+    # we need to save the figure
+
+
+
