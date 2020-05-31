@@ -28,7 +28,7 @@ def warningfct():
     this function prints some warnings
     """
     print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
-    print('WARNING Your selection is not acceptable!')
+    print('WARNING Your selection is not valid!')
     print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
     print()
 
@@ -175,9 +175,10 @@ def pyrun_parse(filename):
         #print("The salmon got eaten by a hungry grizzly bear") #it did not work
         return None
 
-def specify_plot_range(range_choice, df, date):
+def specify_plot_range(range_choice, df, date, out_path):
     '''
-    Function that asks the user how they'd like to plot the data, then calls on other functions to make a binned dataframe and plot the data
+    Function that asks the user how they'd like to plot the data, 
+    then calls on other functions to make a binned dataframe and plot the data
     '''
     print(f"\nNow we'll plot the data that we just retrieved.\n")
 
@@ -186,8 +187,8 @@ def specify_plot_range(range_choice, df, date):
         print('(please enter 1, 2, or 3)') # user selects plotting by Hour, Day, or Month
         plot_range_input = input('  > ')
         while plot_range_input not in ['1','1.','2','2.','3','3.']:
-            print("Your input is invalid.\nPlease enter please enter 1, 2, or 3)")
-            plot_range_input = input('> ')
+            print("Your input is invalid.\nPlease enter 1, 2, or 3)")
+            plot_range_input = input('  > ')
 
         # assign variables depending on the user-selected plotting method
         if plot_range_input in ['1','1.']:
@@ -200,22 +201,35 @@ def specify_plot_range(range_choice, df, date):
     elif range_choice in ['2','2.']: # if user retrieved 1 DAY of data, plot by the hour
         increment_max, increment_label, time_index = 25, 'hour', df.index.hour
 
-    bin_input = get_bin_input(0, increment_max, increment_label) # get user input for size of time bins
-    new_df = make_binned_df(time_index, 0, increment_max, bin_input, df) # make a binned dataframe based on selected bin size
-    print(f'The max number of fish recorded in a given interval was: {new_df.max()[0]}\nThe minimum was: {new_df.min()[0]}') # print max and min
-    plot_data(new_df, increment_label, date, bin_input) # plot the data
+    # get user input for size of time bins
+    bin_input = get_bin_input(0, increment_max, increment_label) 
+    # make a binned dataframe based on selected bin size
+    new_df = make_binned_df(time_index, 0, increment_max, bin_input, df) 
+    # print max and min
+    print(f'The max number of fish recorded in a given interval was: {new_df.max()[0]}\nThe minimum was: {new_df.min()[0]}') 
+    # plot the data
+    plot_data(new_df, increment_label, date, bin_input, out_path) 
 
     return new_df
+    
 
 
 def make_binned_df(time_index, range_start, range_end, bin_size, df):
     '''
-    Makes a new dataframe with grouped time intervales as indicies, and number of fish occurences within an interval as the values
+    Makes a new dataframe with grouped time intervales as indices, 
+    and number of fish occurences within an interval as the values
     '''
-    range_arr = np.arange(range_start, range_end, bin_size) # makes an array based on range start and stop, with bin_size as the step-size
+    # makes an array based on range start and stop, with bin_size as the step-size
+    range_arr = np.arange(range_start, range_end, bin_size) 
+
+    # if the last element in the range array falls short of what the end should be (range_end), 
+    # then add an end value to the array. Without this, it cuts off the last days/hours of data 
+    # if the user selects a bin_size that is not a factor of the range_end-1. 
+    # But this can also makes the last bin a different size than the others.
     if range_arr[-1] != range_end - 1:
-        range_arr = np.append(range_arr, [range_end - 1]) # if the last element in the range array falls short of what the end should be (range_end), then add an end value to the array. Without this, it cuts off the last days/hours of data if the user selects a bin_size that is not a factor of the range_end-1. But this can also makes the last bin a different size than the others.
-    df_bins = df.groupby(pd.cut(time_index, range_arr)).count() # creation of new 'binned' dataframe
+        range_arr = np.append(range_arr, [range_end - 1]) 
+    # creation of new 'binned' dataframe
+    df_bins = df.groupby(pd.cut(time_index, range_arr)).count() 
 
     return df_bins # this is the dataframe that gets plotted.
 
@@ -225,14 +239,14 @@ def get_bin_input(range_start, range_end, unit):
     Gets user input for the size bin they want to use.
     '''
     print(f"Enter the size of the time intervals you'd like to use for plotting (enter an integer number of {unit+'s'} between {range_start+1} and {range_end-1})")
-    bin_input = int(input('> '))
+    bin_input = int(input(' > '))
     while bin_input not in range(range_start, range_end):
         print(f"Your input is invalid.\nPlease enter a valid interval size (enter an integer between {range_start+1} and {range_end-1})")
-        bin_input = int(input('> '))
+        bin_input = int(input(' > '))
     return bin_input
 
 
-def plot_data(df, unit, date, bin_input):
+def plot_data(df, unit, date, bin_input, out_path):
     '''
     Function for plotting the data. Produces a bar graph of fish interrogation vs time.
     '''
@@ -244,9 +258,15 @@ def plot_data(df, unit, date, bin_input):
     ax.set_xlabel(f'Time Interval ({unit})', size = 1.2*fs)
     ax.set_ylabel('Number of Fish', size = 1.2*fs)
     ax.set_yticks([]) # get rid of ticks/labels on y axis
-    ax.text(.95, .88, f'Year: {date[0]}' + ('' if np.isnan(date[1]) else '\nDay: ' + str(date[1])) + f'\nInterval: {bin_input} {unit}(s)', fontsize=fs, transform = ax.transAxes,ha='right', bbox=dict(facecolor='lightsalmon', edgecolor='None', alpha=0.5)) # make a text box that shows the year, interval length in the top-right corner
-    for index, value in enumerate(df['ID']): # show the frequency on top of each bar
+    # make a text box that shows the year, interval length in the top-right corner
+    ax.text(.95, .88, f'Year: {date[0]}' + ('' if np.isnan(date[1]) else '\nDay: ' + str(date[1])) + f'\nInterval: {bin_input} {unit}(s)', 
+        fontsize=fs, transform = ax.transAxes,ha='right', bbox=dict(facecolor='lightsalmon', edgecolor='None', alpha=0.5)) 
+    # show the frequency on top of each bar
+    for index, value in enumerate(df['ID']): 
         plt.text(index-.13, value+0.04, value, fontsize = .8*fs)
     ax.set_ylim([0,df.max()[0]*1.2])
     plt.tight_layout()
+    # filename for the saved plot
+    file_out='bargraph_+'+str(date[0])+'_'+unit+'_'+str(bin_input)+'.eps'
+    plt.savefig(out_path+file_out,format='eps',dpi=200)
     plt.show()

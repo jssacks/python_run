@@ -119,9 +119,9 @@ else:
 
     # Plot
     date = [year[0], np.nan if len(day_of_year)>1 else day_of_year[0]] 
-    specify_plot_range(range_choice, df, date)
+    new_df = specify_plot_range(range_choice, df, date, out_path)
 
-    # we need to save the figure
+    
 
 
 
