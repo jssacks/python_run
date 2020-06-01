@@ -45,6 +45,7 @@ def user_input():
     while int(year) not in range(2005,2013):
         warningfct()
         print('Please select a year between 2005 and 2012')
+        print('Note that 2009 is a good year.')
         print()
         year = input("  Year: ")
         print()
@@ -68,6 +69,7 @@ def user_input():
         day_of_year = range(1,366)
     elif range_choice in ['2','2.']:
         print('Please select a day between 1 and 365')
+        print('Note that for 2009, day 202 is a good choice.')
         print()
         day_of_year = input("    Day of the year: ")
         print()
