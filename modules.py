@@ -148,38 +148,31 @@ def pyrun_parse(filename):
     extracts the date, time, and ID for the observations from the ASCII files
     and outputs this information into a pandas DataFrame
     """
-    try:
-        z = [] #list to read dictionaries created from each line of the file into
-        f = open(filename, 'r')
-        for line in f:
-            line = line.strip() #removes hidden characters
-            columns = line.split(" ") #splits lines into columns based on whitespace
-            source = {} #a dictionary to put the 2 columns created from each line into
-            source['x'] = columns[0] #the first column for each line is given the key "x"
-            source['a'] = columns[1:8] #the remaining columns are a list corresponding to key "a"
-            z.append(source) #the dictionary of "x:__; a:_________" for each line is added to list z creating a list of dictionaries
+    z = [] #list to read dictionaries created from each line of the file into
+    f = open(filename, 'r')
+    for line in f:
+        line = line.strip() #removes hidden characters
+        columns = line.split(" ") #splits lines into columns based on whitespace
+        source = {} #a dictionary to put the 2 columns created from each line into
+        source['x'] = columns[0] #the first column for each line is given the key "x"
+        source['a'] = columns[1:8] #the remaining columns are a list corresponding to key "a"
+        z.append(source) #the dictionary of "x:__; a:_________" for each line is added to list z creating a list of dictionaries
 
-        z2 = pd.DataFrame(z) #convert list of dicts z to a pandas DataFrame
+    z2 = pd.DataFrame(z) #convert list of dicts z to a pandas DataFrame
 
-        z3 = z2[z2.x == '|'] #only keep lines containing observations (marked with a '|' in column "x")
+    z3 = z2[z2.x == '|'] #only keep lines containing observations (marked with a '|' in column "x")
 
-        dat = z3['a'].apply(pd.Series) #create a new DataFrame only containing the actual observation info
-        dat = dat.rename(columns = lambda x : 'dat_' + str(x)) #rename the columns
-        zat = dat[['dat_1', 'dat_2', 'dat_3']] #only keep the columns corresponding to date, time, and ID
-        zat = zat.rename(columns = {'dat_1': "date", 'dat_2': "time", 'dat_3': "ID"}) #rename these columns
-        zat2 = zat[~zat['ID'].str.contains("0000")] #remove test tag observations
+    dat = z3['a'].apply(pd.Series) #create a new DataFrame only containing the actual observation info
+    dat = dat.rename(columns = lambda x : 'dat_' + str(x)) #rename the columns
+    zat = dat[['dat_1', 'dat_2', 'dat_3']] #only keep the columns corresponding to date, time, and ID
+    zat = zat.rename(columns = {'dat_1': "date", 'dat_2': "time", 'dat_3': "ID"}) #rename these columns
+    zat2 = zat[~zat['ID'].str.contains("0000")] #remove test tag observations
+    return zat2
 
-        #print("\nThe salmon evaded all of the grizzles and ran all the way up the stream") #it worked
-        return zat2
-
-    # this is bad form, specify an error type
-    except:
-        #print("The salmon got eaten by a hungry grizzly bear") #it did not work
-        return None
 
 def specify_plot_range(range_choice, df, date, out_path):
     '''
-    Function that asks the user how they'd like to plot the data, 
+    Function that asks the user how they'd like to plot the data,
     then calls on other functions to make a binned dataframe and plot the data
     '''
     print(f"\nNow we'll plot the data that we just retrieved.\n")
@@ -204,34 +197,34 @@ def specify_plot_range(range_choice, df, date, out_path):
         increment_max, increment_label, time_index = 25, 'hour', df.index.hour
 
     # get user input for size of time bins
-    bin_input = get_bin_input(0, increment_max, increment_label) 
+    bin_input = get_bin_input(0, increment_max, increment_label)
     # make a binned dataframe based on selected bin size
-    new_df = make_binned_df(time_index, 0, increment_max, bin_input, df) 
+    new_df = make_binned_df(time_index, 0, increment_max, bin_input, df)
     # print max and min
-    print(f'The max number of fish recorded in a given interval was: {new_df.max()[0]}\nThe minimum was: {new_df.min()[0]}') 
+    print(f'The max number of fish recorded in a given interval was: {new_df.max()[0]}\nThe minimum was: {new_df.min()[0]}')
     # plot the data
-    plot_data(new_df, increment_label, date, bin_input, out_path) 
+    plot_data(new_df, increment_label, date, bin_input, out_path)
 
     return new_df
-    
+
 
 
 def make_binned_df(time_index, range_start, range_end, bin_size, df):
     '''
-    Makes a new dataframe with grouped time intervales as indices, 
+    Makes a new dataframe with grouped time intervales as indices,
     and number of fish occurences within an interval as the values
     '''
     # makes an array based on range start and stop, with bin_size as the step-size
-    range_arr = np.arange(range_start, range_end, bin_size) 
+    range_arr = np.arange(range_start, range_end, bin_size)
 
-    # if the last element in the range array falls short of what the end should be (range_end), 
-    # then add an end value to the array. Without this, it cuts off the last days/hours of data 
-    # if the user selects a bin_size that is not a factor of the range_end-1. 
+    # if the last element in the range array falls short of what the end should be (range_end),
+    # then add an end value to the array. Without this, it cuts off the last days/hours of data
+    # if the user selects a bin_size that is not a factor of the range_end-1.
     # But this can also makes the last bin a different size than the others.
     if range_arr[-1] != range_end - 1:
-        range_arr = np.append(range_arr, [range_end - 1]) 
+        range_arr = np.append(range_arr, [range_end - 1])
     # creation of new 'binned' dataframe
-    df_bins = df.groupby(pd.cut(time_index, range_arr)).count() 
+    df_bins = df.groupby(pd.cut(time_index, range_arr)).count()
 
     return df_bins # this is the dataframe that gets plotted.
 
@@ -261,10 +254,10 @@ def plot_data(df, unit, date, bin_input, out_path):
     ax.set_ylabel('Number of Fish', size = 1.2*fs)
     ax.set_yticks([]) # get rid of ticks/labels on y axis
     # make a text box that shows the year, interval length in the top-right corner
-    ax.text(.95, .88, f'Year: {date[0]}' + ('' if np.isnan(date[1]) else '\nDay: ' + str(date[1])) + f'\nInterval: {bin_input} {unit}(s)', 
-        fontsize=fs, transform = ax.transAxes,ha='right', bbox=dict(facecolor='lightsalmon', edgecolor='None', alpha=0.5)) 
+    ax.text(.95, .88, f'Year: {date[0]}' + ('' if np.isnan(date[1]) else '\nDay: ' + str(date[1])) + f'\nInterval: {bin_input} {unit}(s)',
+        fontsize=fs, transform = ax.transAxes,ha='right', bbox=dict(facecolor='lightsalmon', edgecolor='None', alpha=0.5))
     # show the frequency on top of each bar
-    for index, value in enumerate(df['ID']): 
+    for index, value in enumerate(df['ID']):
         plt.text(index-.13, value+0.04, value, fontsize = .8*fs)
     ax.set_ylim([0,df.max()[0]*1.2])
     plt.tight_layout()
